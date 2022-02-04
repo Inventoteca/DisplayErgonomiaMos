@@ -1,0 +1,6 @@
+{
+  "arch": "esp8266",
+  "platform": "esp8266",
+  "app_name": "mos-serverus-panel-ergo",
+  "build_time_ms": 36160
+}

@@ -1,0 +1,53 @@
+author: Inventoeca
+description: Base para configuracion de dispositivos IoT
+version: 1.0
+
+libs_version: ${mos.version}
+modules_version: ${mos.version}
+mongoose_os_version: ${mos.version}
+
+# Optional. List of tags for online search.
+tags:
+  - c
+
+# List of files / directories with C sources. No slashes at the end of dir names.
+sources:
+  - src
+
+# List of dirs. Files from these dirs will be copied to the device filesystem
+filesystem:
+  - fs
+
+config_schema:
+  - ["wifi.ap.ssid", "s", "Invento_??????", {title: "SSID"}]
+  - ["wifi.ap.pass", "s", "12345678", {title: "Password", type: "password"}]
+  - ["wifi.ap.ip", "s", "192.168.10.1", {title: "IP address"}]
+  - ["wifi.ap.netmask", "s", "255.255.255.0", {title: "Network Mask"}]
+  - ["wifi.ap.gw", "s", "192.168.10.1", {title: "Default Gateway"}]
+  - ["wifi.ap.dhcp_start", "s", "192.168.10.2", {title: "DHCP Start Address"}]
+  - ["wifi.ap.dhcp_end", "s", "192.168.10.100", {title: "DHCP End Address"}]
+
+  - ["wifi.sta.enable", "b", true , {title: "Connect to existing WiFi"}]
+  - ["wifi.sta.ssid", "s","Inventoteca_2G", {title: "SSID"}]
+  - ["wifi.sta.pass", "s","science_7425", {title: "Password", type: "password"}]
+
+# List of libraries used by this app, in order of initialisation
+libs:
+  - origin: https://github.com/mongoose-os-libs/boards
+  - origin: https://github.com/mongoose-os-libs/ca-bundle
+  - origin: https://github.com/mongoose-os-libs/http-server
+  - origin: https://github.com/mongoose-os-libs/rpc-service-config
+  - origin: https://github.com/mongoose-os-libs/rpc-service-fs
+  - origin: https://github.com/mongoose-os-libs/rpc-uart
+  - origin: https://github.com/mongoose-os-libs/wifi
+  - origin: https://github.com/mongoose-os-libs/wifi-setup-web-ui
+  - origin: https://github.com/mongoose-os-libs/neopixel
+  - origin: https://github.com/mongoose-os-libs/mdash-api
+  - origin: https://github.com/mongoose-os-libs/rpc-service-gpio
+
+cdefs:
+  MG_ENABLE_DNS: 1
+  MG_ENABLE_DNS_SERVER: 1
+
+# Used by the mos tool to catch mos binaries incompatible with this file format
+manifest_version: 2017-05-18
