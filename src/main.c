@@ -23,20 +23,25 @@
 #include "mgos_dht.h"
 #include "mgos_rpc.h"
 
-#define PIN 14 //GPIO14
+#define PIN 0 //GPIO14
 #define NUM_PIXELS 272
 #define ORDER MGOS_NEOPIXEL_ORDER_GRB
 
 struct mgos_neopixel *s_strip = NULL;
 //struct mgos_dht *dht = NULL;
 
-static void timer_cb(void *dht) {
+// Temperature timer
+static void timer_cb(void *dht) 
+{
   LOG(LL_INFO, ("Temperature: %lf", mgos_dht_get_temp(dht)));
+  LOG(LL_INFO, ("Humidity: %lf", mgos_dht_get_humidity(dht)));
 }
 
+// Response
 static void rpc_cb(struct mg_rpc_request_info *ri, void *cb_arg,
-                   struct mg_rpc_frame_info *fi, struct mg_str args) {
-  mg_rpc_send_responsef(ri, "{value: %lf}", mgos_dht_get_temp(cb_arg));
+                   struct mg_rpc_frame_info *fi, struct mg_str args) 
+                   {
+  mg_rpc_send_responsef(ri, "{value: %i}", mgos_dht_get_humidity(cb_arg));
   (void) fi;
   (void) args;
 }
@@ -46,10 +51,10 @@ static void pixel_timer_cb(void *arg)
   static int s_cnt = 0;
   int pixel = (s_cnt++) % NUM_PIXELS;
   int r = s_cnt % 255, g = (s_cnt * 2) % 255, b = s_cnt * s_cnt % 255;
-  //mgos_neopixel_clear(s_strip);
+  mgos_neopixel_clear(s_strip);
   mgos_neopixel_set(s_strip, pixel, r, g, b);
   mgos_neopixel_show(s_strip);
-  LOG(LL_INFO, ("%3d %3d %3d %3d", pixel, r, g, b));
+  //LOG(LL_INFO, ("%3d %3d %3d %3d", pixel, r, g, b));
   (void) arg;
 }
 

@@ -1,7 +1,7 @@
 /* clang-format off */
 /*
  * Generated file - do not edit.
- * Command: /mongoose-os/tools/mgos_gen_config.py --c_name=mgos_config --c_global_name=mgos_sys_config --dest_dir=/data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_969766401/build/gen/ /mongoose-os/src/mgos_debug_udp_config.yaml /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_969766401/build/gen/mos_conf_schema.yml
+ * Command: /mongoose-os/tools/mgos_gen_config.py --c_name=mgos_config --c_global_name=mgos_sys_config --dest_dir=/data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_026981364/build/gen/ /mongoose-os/src/mgos_debug_udp_config.yaml /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_026981364/build/gen/mos_conf_schema.yml
  */
 
 #include "mgos_config.h"
@@ -13,7 +13,7 @@
 
 /* struct mgos_config */
 static const struct mgos_conf_entry mgos_config_schema_[] = {
-    {.type = CONF_TYPE_OBJECT, .key = "", .offset = 0, .num_desc = 142},
+    {.type = CONF_TYPE_OBJECT, .key = "", .offset = 0, .num_desc = 122},
     {.type = CONF_TYPE_OBJECT, .key = "debug", .offset = offsetof(struct mgos_config, debug), .num_desc = 10},
     {.type = CONF_TYPE_STRING, .key = "udp_log_addr", .offset = offsetof(struct mgos_config, debug.udp_log_addr)},
     {.type = CONF_TYPE_INT, .key = "udp_log_level", .offset = offsetof(struct mgos_config, debug.udp_log_level)},
@@ -36,20 +36,9 @@ static const struct mgos_conf_entry mgos_config_schema_[] = {
     {.type = CONF_TYPE_INT, .key = "wdt_timeout", .offset = offsetof(struct mgos_config, sys.wdt_timeout)},
     {.type = CONF_TYPE_STRING, .key = "pref_ota_lib", .offset = offsetof(struct mgos_config, sys.pref_ota_lib)},
     {.type = CONF_TYPE_STRING, .key = "conf_acl", .offset = offsetof(struct mgos_config, conf_acl)},
-    {.type = CONF_TYPE_OBJECT, .key = "http", .offset = offsetof(struct mgos_config, http), .num_desc = 12},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, http.enable)},
-    {.type = CONF_TYPE_STRING, .key = "listen_addr", .offset = offsetof(struct mgos_config, http.listen_addr)},
-    {.type = CONF_TYPE_STRING, .key = "document_root", .offset = offsetof(struct mgos_config, http.document_root)},
-    {.type = CONF_TYPE_STRING, .key = "index_files", .offset = offsetof(struct mgos_config, http.index_files)},
-    {.type = CONF_TYPE_STRING, .key = "ssl_cert", .offset = offsetof(struct mgos_config, http.ssl_cert)},
-    {.type = CONF_TYPE_STRING, .key = "ssl_key", .offset = offsetof(struct mgos_config, http.ssl_key)},
-    {.type = CONF_TYPE_STRING, .key = "ssl_ca_cert", .offset = offsetof(struct mgos_config, http.ssl_ca_cert)},
-    {.type = CONF_TYPE_STRING, .key = "upload_acl", .offset = offsetof(struct mgos_config, http.upload_acl)},
-    {.type = CONF_TYPE_STRING, .key = "hidden_files", .offset = offsetof(struct mgos_config, http.hidden_files)},
-    {.type = CONF_TYPE_STRING, .key = "auth_domain", .offset = offsetof(struct mgos_config, http.auth_domain)},
-    {.type = CONF_TYPE_STRING, .key = "auth_file", .offset = offsetof(struct mgos_config, http.auth_file)},
-    {.type = CONF_TYPE_STRING, .key = "extra_headers", .offset = offsetof(struct mgos_config, http.extra_headers)},
-    {.type = CONF_TYPE_OBJECT, .key = "rpc", .offset = offsetof(struct mgos_config, rpc), .num_desc = 23},
+    {.type = CONF_TYPE_OBJECT, .key = "mjs", .offset = offsetof(struct mgos_config, mjs), .num_desc = 1},
+    {.type = CONF_TYPE_BOOL, .key = "generate_jsc", .offset = offsetof(struct mgos_config, mjs.generate_jsc)},
+    {.type = CONF_TYPE_OBJECT, .key = "rpc", .offset = offsetof(struct mgos_config, rpc), .num_desc = 14},
     {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, rpc.enable)},
     {.type = CONF_TYPE_BOOL, .key = "http_enable", .offset = offsetof(struct mgos_config, rpc.http_enable)},
     {.type = CONF_TYPE_BOOL, .key = "service_sys_enable", .offset = offsetof(struct mgos_config, rpc.service_sys_enable)},
@@ -64,15 +53,6 @@ static const struct mgos_conf_entry mgos_config_schema_[] = {
     {.type = CONF_TYPE_INT, .key = "baud_rate", .offset = offsetof(struct mgos_config, rpc.uart.baud_rate)},
     {.type = CONF_TYPE_INT, .key = "fc_type", .offset = offsetof(struct mgos_config, rpc.uart.fc_type)},
     {.type = CONF_TYPE_STRING, .key = "dst", .offset = offsetof(struct mgos_config, rpc.uart.dst)},
-    {.type = CONF_TYPE_OBJECT, .key = "ws", .offset = offsetof(struct mgos_config, rpc.ws), .num_desc = 8},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, rpc.ws.enable)},
-    {.type = CONF_TYPE_STRING, .key = "server_address", .offset = offsetof(struct mgos_config, rpc.ws.server_address)},
-    {.type = CONF_TYPE_INT, .key = "reconnect_interval_min", .offset = offsetof(struct mgos_config, rpc.ws.reconnect_interval_min)},
-    {.type = CONF_TYPE_INT, .key = "reconnect_interval_max", .offset = offsetof(struct mgos_config, rpc.ws.reconnect_interval_max)},
-    {.type = CONF_TYPE_STRING, .key = "ssl_server_name", .offset = offsetof(struct mgos_config, rpc.ws.ssl_server_name)},
-    {.type = CONF_TYPE_STRING, .key = "ssl_cert", .offset = offsetof(struct mgos_config, rpc.ws.ssl_cert)},
-    {.type = CONF_TYPE_STRING, .key = "ssl_key", .offset = offsetof(struct mgos_config, rpc.ws.ssl_key)},
-    {.type = CONF_TYPE_STRING, .key = "ssl_ca_cert", .offset = offsetof(struct mgos_config, rpc.ws.ssl_ca_cert)},
     {.type = CONF_TYPE_OBJECT, .key = "wifi", .offset = offsetof(struct mgos_config, wifi), .num_desc = 61},
     {.type = CONF_TYPE_OBJECT, .key = "ap", .offset = offsetof(struct mgos_config, wifi.ap), .num_desc = 15},
     {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, wifi.ap.enable)},
@@ -200,29 +180,18 @@ void mgos_config_sys_set_defaults(struct mgos_config_sys *cfg) {
   cfg->pref_ota_lib = NULL;
 }
 
-/* struct mgos_config_http */
-const struct mgos_conf_entry *mgos_config_http_get_schema(void) {
+/* struct mgos_config_mjs */
+const struct mgos_conf_entry *mgos_config_mjs_get_schema(void) {
   return &mgos_config_schema_[23];
 }
 
-void mgos_config_http_set_defaults(struct mgos_config_http *cfg) {
-  cfg->enable = true;
-  cfg->listen_addr = "80";
-  cfg->document_root = "/";
-  cfg->index_files = NULL;
-  cfg->ssl_cert = NULL;
-  cfg->ssl_key = NULL;
-  cfg->ssl_ca_cert = NULL;
-  cfg->upload_acl = "*";
-  cfg->hidden_files = NULL;
-  cfg->auth_domain = NULL;
-  cfg->auth_file = NULL;
-  cfg->extra_headers = NULL;
+void mgos_config_mjs_set_defaults(struct mgos_config_mjs *cfg) {
+  cfg->generate_jsc = false;
 }
 
 /* struct mgos_config_rpc_uart */
 const struct mgos_conf_entry *mgos_config_rpc_uart_get_schema(void) {
-  return &mgos_config_schema_[46];
+  return &mgos_config_schema_[35];
 }
 
 void mgos_config_rpc_uart_set_defaults(struct mgos_config_rpc_uart *cfg) {
@@ -232,25 +201,9 @@ void mgos_config_rpc_uart_set_defaults(struct mgos_config_rpc_uart *cfg) {
   cfg->dst = NULL;
 }
 
-/* struct mgos_config_rpc_ws */
-const struct mgos_conf_entry *mgos_config_rpc_ws_get_schema(void) {
-  return &mgos_config_schema_[51];
-}
-
-void mgos_config_rpc_ws_set_defaults(struct mgos_config_rpc_ws *cfg) {
-  cfg->enable = true;
-  cfg->server_address = NULL;
-  cfg->reconnect_interval_min = 1;
-  cfg->reconnect_interval_max = 60;
-  cfg->ssl_server_name = NULL;
-  cfg->ssl_cert = NULL;
-  cfg->ssl_key = NULL;
-  cfg->ssl_ca_cert = NULL;
-}
-
 /* struct mgos_config_rpc */
 const struct mgos_conf_entry *mgos_config_rpc_get_schema(void) {
-  return &mgos_config_schema_[36];
+  return &mgos_config_schema_[25];
 }
 
 void mgos_config_rpc_set_defaults(struct mgos_config_rpc *cfg) {
@@ -264,12 +217,11 @@ void mgos_config_rpc_set_defaults(struct mgos_config_rpc *cfg) {
   cfg->auth_domain = "RPC";
   cfg->auth_file = NULL;
   mgos_config_rpc_uart_set_defaults(&cfg->uart);
-  mgos_config_rpc_ws_set_defaults(&cfg->ws);
 }
 
 /* struct mgos_config_wifi_ap */
 const struct mgos_conf_entry *mgos_config_wifi_ap_get_schema(void) {
-  return &mgos_config_schema_[61];
+  return &mgos_config_schema_[41];
 }
 
 void mgos_config_wifi_ap_set_defaults(struct mgos_config_wifi_ap *cfg) {
@@ -292,7 +244,7 @@ void mgos_config_wifi_ap_set_defaults(struct mgos_config_wifi_ap *cfg) {
 
 /* struct mgos_config_wifi_sta */
 const struct mgos_conf_entry *mgos_config_wifi_sta_get_schema(void) {
-  return &mgos_config_schema_[105];
+  return &mgos_config_schema_[85];
 }
 
 void mgos_config_wifi_sta_set_defaults(struct mgos_config_wifi_sta *cfg) {
@@ -313,7 +265,7 @@ void mgos_config_wifi_sta_set_defaults(struct mgos_config_wifi_sta *cfg) {
 
 /* struct mgos_config_wifi_sta */
 const struct mgos_conf_entry *mgos_config_wifi_sta1_get_schema(void) {
-  return &mgos_config_schema_[105];
+  return &mgos_config_schema_[85];
 }
 
 void mgos_config_wifi_sta1_set_defaults(struct mgos_config_wifi_sta *cfg) {
@@ -334,7 +286,7 @@ void mgos_config_wifi_sta1_set_defaults(struct mgos_config_wifi_sta *cfg) {
 
 /* struct mgos_config_wifi_sta */
 const struct mgos_conf_entry *mgos_config_wifi_sta2_get_schema(void) {
-  return &mgos_config_schema_[105];
+  return &mgos_config_schema_[85];
 }
 
 void mgos_config_wifi_sta2_set_defaults(struct mgos_config_wifi_sta *cfg) {
@@ -355,7 +307,7 @@ void mgos_config_wifi_sta2_set_defaults(struct mgos_config_wifi_sta *cfg) {
 
 /* struct mgos_config_wifi */
 const struct mgos_conf_entry *mgos_config_wifi_get_schema(void) {
-  return &mgos_config_schema_[60];
+  return &mgos_config_schema_[40];
 }
 
 void mgos_config_wifi_set_defaults(struct mgos_config_wifi *cfg) {
@@ -370,7 +322,7 @@ void mgos_config_wifi_set_defaults(struct mgos_config_wifi *cfg) {
 
 /* struct mgos_config_board_led1 */
 const struct mgos_conf_entry *mgos_config_board_led1_get_schema(void) {
-  return &mgos_config_schema_[123];
+  return &mgos_config_schema_[103];
 }
 
 void mgos_config_board_led1_set_defaults(struct mgos_config_board_led1 *cfg) {
@@ -380,7 +332,7 @@ void mgos_config_board_led1_set_defaults(struct mgos_config_board_led1 *cfg) {
 
 /* struct mgos_config_board_led2 */
 const struct mgos_conf_entry *mgos_config_board_led2_get_schema(void) {
-  return &mgos_config_schema_[126];
+  return &mgos_config_schema_[106];
 }
 
 void mgos_config_board_led2_set_defaults(struct mgos_config_board_led2 *cfg) {
@@ -390,7 +342,7 @@ void mgos_config_board_led2_set_defaults(struct mgos_config_board_led2 *cfg) {
 
 /* struct mgos_config_board_led3 */
 const struct mgos_conf_entry *mgos_config_board_led3_get_schema(void) {
-  return &mgos_config_schema_[129];
+  return &mgos_config_schema_[109];
 }
 
 void mgos_config_board_led3_set_defaults(struct mgos_config_board_led3 *cfg) {
@@ -400,7 +352,7 @@ void mgos_config_board_led3_set_defaults(struct mgos_config_board_led3 *cfg) {
 
 /* struct mgos_config_board_btn1 */
 const struct mgos_conf_entry *mgos_config_board_btn1_get_schema(void) {
-  return &mgos_config_schema_[132];
+  return &mgos_config_schema_[112];
 }
 
 void mgos_config_board_btn1_set_defaults(struct mgos_config_board_btn1 *cfg) {
@@ -410,7 +362,7 @@ void mgos_config_board_btn1_set_defaults(struct mgos_config_board_btn1 *cfg) {
 
 /* struct mgos_config_board_btn2 */
 const struct mgos_conf_entry *mgos_config_board_btn2_get_schema(void) {
-  return &mgos_config_schema_[135];
+  return &mgos_config_schema_[115];
 }
 
 void mgos_config_board_btn2_set_defaults(struct mgos_config_board_btn2 *cfg) {
@@ -420,7 +372,7 @@ void mgos_config_board_btn2_set_defaults(struct mgos_config_board_btn2 *cfg) {
 
 /* struct mgos_config_board_btn3 */
 const struct mgos_conf_entry *mgos_config_board_btn3_get_schema(void) {
-  return &mgos_config_schema_[138];
+  return &mgos_config_schema_[118];
 }
 
 void mgos_config_board_btn3_set_defaults(struct mgos_config_board_btn3 *cfg) {
@@ -430,7 +382,7 @@ void mgos_config_board_btn3_set_defaults(struct mgos_config_board_btn3 *cfg) {
 
 /* struct mgos_config_board */
 const struct mgos_conf_entry *mgos_config_board_get_schema(void) {
-  return &mgos_config_schema_[122];
+  return &mgos_config_schema_[102];
 }
 
 void mgos_config_board_set_defaults(struct mgos_config_board *cfg) {
@@ -444,11 +396,11 @@ void mgos_config_board_set_defaults(struct mgos_config_board *cfg) {
 
 /* struct mgos_config_app */
 const struct mgos_conf_entry *mgos_config_app_get_schema(void) {
-  return &mgos_config_schema_[141];
+  return &mgos_config_schema_[121];
 }
 
 void mgos_config_app_set_defaults(struct mgos_config_app *cfg) {
-  cfg->pin = 12;
+  cfg->pin = 2;
 }
 
 /* struct mgos_config */
@@ -461,7 +413,7 @@ void mgos_config_set_defaults(struct mgos_config *cfg) {
   mgos_config_device_set_defaults(&cfg->device);
   mgos_config_sys_set_defaults(&cfg->sys);
   cfg->conf_acl = "*";
-  mgos_config_http_set_defaults(&cfg->http);
+  mgos_config_mjs_set_defaults(&cfg->mjs);
   mgos_config_rpc_set_defaults(&cfg->rpc);
   mgos_config_wifi_set_defaults(&cfg->wifi);
   mgos_config_board_set_defaults(&cfg->board);
@@ -577,68 +529,13 @@ const char * mgos_config_get_conf_acl(const struct mgos_config *cfg) { return cf
 const char * mgos_config_get_default_conf_acl(void) { return "*"; }
 void mgos_config_set_conf_acl(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->conf_acl, v); }
 
-/* http */
-const struct mgos_config_http *mgos_config_get_http(const struct mgos_config *cfg) { return &cfg->http; }
+/* mjs */
+const struct mgos_config_mjs *mgos_config_get_mjs(const struct mgos_config *cfg) { return &cfg->mjs; }
 
-/* http.enable */
-int mgos_config_get_http_enable(const struct mgos_config *cfg) { return cfg->http.enable; }
-int mgos_config_get_default_http_enable(void) { return true; }
-void mgos_config_set_http_enable(struct mgos_config *cfg, int v) { cfg->http.enable = v; }
-
-/* http.listen_addr */
-const char * mgos_config_get_http_listen_addr(const struct mgos_config *cfg) { return cfg->http.listen_addr; }
-const char * mgos_config_get_default_http_listen_addr(void) { return "80"; }
-void mgos_config_set_http_listen_addr(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->http.listen_addr, v); }
-
-/* http.document_root */
-const char * mgos_config_get_http_document_root(const struct mgos_config *cfg) { return cfg->http.document_root; }
-const char * mgos_config_get_default_http_document_root(void) { return "/"; }
-void mgos_config_set_http_document_root(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->http.document_root, v); }
-
-/* http.index_files */
-const char * mgos_config_get_http_index_files(const struct mgos_config *cfg) { return cfg->http.index_files; }
-const char * mgos_config_get_default_http_index_files(void) { return NULL; }
-void mgos_config_set_http_index_files(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->http.index_files, v); }
-
-/* http.ssl_cert */
-const char * mgos_config_get_http_ssl_cert(const struct mgos_config *cfg) { return cfg->http.ssl_cert; }
-const char * mgos_config_get_default_http_ssl_cert(void) { return NULL; }
-void mgos_config_set_http_ssl_cert(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->http.ssl_cert, v); }
-
-/* http.ssl_key */
-const char * mgos_config_get_http_ssl_key(const struct mgos_config *cfg) { return cfg->http.ssl_key; }
-const char * mgos_config_get_default_http_ssl_key(void) { return NULL; }
-void mgos_config_set_http_ssl_key(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->http.ssl_key, v); }
-
-/* http.ssl_ca_cert */
-const char * mgos_config_get_http_ssl_ca_cert(const struct mgos_config *cfg) { return cfg->http.ssl_ca_cert; }
-const char * mgos_config_get_default_http_ssl_ca_cert(void) { return NULL; }
-void mgos_config_set_http_ssl_ca_cert(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->http.ssl_ca_cert, v); }
-
-/* http.upload_acl */
-const char * mgos_config_get_http_upload_acl(const struct mgos_config *cfg) { return cfg->http.upload_acl; }
-const char * mgos_config_get_default_http_upload_acl(void) { return "*"; }
-void mgos_config_set_http_upload_acl(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->http.upload_acl, v); }
-
-/* http.hidden_files */
-const char * mgos_config_get_http_hidden_files(const struct mgos_config *cfg) { return cfg->http.hidden_files; }
-const char * mgos_config_get_default_http_hidden_files(void) { return NULL; }
-void mgos_config_set_http_hidden_files(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->http.hidden_files, v); }
-
-/* http.auth_domain */
-const char * mgos_config_get_http_auth_domain(const struct mgos_config *cfg) { return cfg->http.auth_domain; }
-const char * mgos_config_get_default_http_auth_domain(void) { return NULL; }
-void mgos_config_set_http_auth_domain(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->http.auth_domain, v); }
-
-/* http.auth_file */
-const char * mgos_config_get_http_auth_file(const struct mgos_config *cfg) { return cfg->http.auth_file; }
-const char * mgos_config_get_default_http_auth_file(void) { return NULL; }
-void mgos_config_set_http_auth_file(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->http.auth_file, v); }
-
-/* http.extra_headers */
-const char * mgos_config_get_http_extra_headers(const struct mgos_config *cfg) { return cfg->http.extra_headers; }
-const char * mgos_config_get_default_http_extra_headers(void) { return NULL; }
-void mgos_config_set_http_extra_headers(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->http.extra_headers, v); }
+/* mjs.generate_jsc */
+int mgos_config_get_mjs_generate_jsc(const struct mgos_config *cfg) { return cfg->mjs.generate_jsc; }
+int mgos_config_get_default_mjs_generate_jsc(void) { return false; }
+void mgos_config_set_mjs_generate_jsc(struct mgos_config *cfg, int v) { cfg->mjs.generate_jsc = v; }
 
 /* rpc */
 const struct mgos_config_rpc *mgos_config_get_rpc(const struct mgos_config *cfg) { return &cfg->rpc; }
@@ -710,49 +607,6 @@ void mgos_config_set_rpc_uart_fc_type(struct mgos_config *cfg, int v) { cfg->rpc
 const char * mgos_config_get_rpc_uart_dst(const struct mgos_config *cfg) { return cfg->rpc.uart.dst; }
 const char * mgos_config_get_default_rpc_uart_dst(void) { return NULL; }
 void mgos_config_set_rpc_uart_dst(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->rpc.uart.dst, v); }
-
-/* rpc.ws */
-const struct mgos_config_rpc_ws *mgos_config_get_rpc_ws(const struct mgos_config *cfg) { return &cfg->rpc.ws; }
-
-/* rpc.ws.enable */
-int mgos_config_get_rpc_ws_enable(const struct mgos_config *cfg) { return cfg->rpc.ws.enable; }
-int mgos_config_get_default_rpc_ws_enable(void) { return true; }
-void mgos_config_set_rpc_ws_enable(struct mgos_config *cfg, int v) { cfg->rpc.ws.enable = v; }
-
-/* rpc.ws.server_address */
-const char * mgos_config_get_rpc_ws_server_address(const struct mgos_config *cfg) { return cfg->rpc.ws.server_address; }
-const char * mgos_config_get_default_rpc_ws_server_address(void) { return NULL; }
-void mgos_config_set_rpc_ws_server_address(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->rpc.ws.server_address, v); }
-
-/* rpc.ws.reconnect_interval_min */
-int mgos_config_get_rpc_ws_reconnect_interval_min(const struct mgos_config *cfg) { return cfg->rpc.ws.reconnect_interval_min; }
-int mgos_config_get_default_rpc_ws_reconnect_interval_min(void) { return 1; }
-void mgos_config_set_rpc_ws_reconnect_interval_min(struct mgos_config *cfg, int v) { cfg->rpc.ws.reconnect_interval_min = v; }
-
-/* rpc.ws.reconnect_interval_max */
-int mgos_config_get_rpc_ws_reconnect_interval_max(const struct mgos_config *cfg) { return cfg->rpc.ws.reconnect_interval_max; }
-int mgos_config_get_default_rpc_ws_reconnect_interval_max(void) { return 60; }
-void mgos_config_set_rpc_ws_reconnect_interval_max(struct mgos_config *cfg, int v) { cfg->rpc.ws.reconnect_interval_max = v; }
-
-/* rpc.ws.ssl_server_name */
-const char * mgos_config_get_rpc_ws_ssl_server_name(const struct mgos_config *cfg) { return cfg->rpc.ws.ssl_server_name; }
-const char * mgos_config_get_default_rpc_ws_ssl_server_name(void) { return NULL; }
-void mgos_config_set_rpc_ws_ssl_server_name(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->rpc.ws.ssl_server_name, v); }
-
-/* rpc.ws.ssl_cert */
-const char * mgos_config_get_rpc_ws_ssl_cert(const struct mgos_config *cfg) { return cfg->rpc.ws.ssl_cert; }
-const char * mgos_config_get_default_rpc_ws_ssl_cert(void) { return NULL; }
-void mgos_config_set_rpc_ws_ssl_cert(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->rpc.ws.ssl_cert, v); }
-
-/* rpc.ws.ssl_key */
-const char * mgos_config_get_rpc_ws_ssl_key(const struct mgos_config *cfg) { return cfg->rpc.ws.ssl_key; }
-const char * mgos_config_get_default_rpc_ws_ssl_key(void) { return NULL; }
-void mgos_config_set_rpc_ws_ssl_key(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->rpc.ws.ssl_key, v); }
-
-/* rpc.ws.ssl_ca_cert */
-const char * mgos_config_get_rpc_ws_ssl_ca_cert(const struct mgos_config *cfg) { return cfg->rpc.ws.ssl_ca_cert; }
-const char * mgos_config_get_default_rpc_ws_ssl_ca_cert(void) { return NULL; }
-void mgos_config_set_rpc_ws_ssl_ca_cert(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->rpc.ws.ssl_ca_cert, v); }
 
 /* wifi */
 const struct mgos_config_wifi *mgos_config_get_wifi(const struct mgos_config *cfg) { return &cfg->wifi; }
@@ -1140,7 +994,7 @@ const struct mgos_config_app *mgos_config_get_app(const struct mgos_config *cfg)
 
 /* app.pin */
 int mgos_config_get_app_pin(const struct mgos_config *cfg) { return cfg->app.pin; }
-int mgos_config_get_default_app_pin(void) { return 12; }
+int mgos_config_get_default_app_pin(void) { return 2; }
 void mgos_config_set_app_pin(struct mgos_config *cfg, int v) { cfg->app.pin = v; }
 bool mgos_sys_config_get(const struct mg_str key, struct mg_str *value) {
   return mgos_config_get(key, value, &mgos_sys_config, mgos_config_schema());
@@ -1156,12 +1010,10 @@ const struct mgos_conf_entry *mgos_config_schema(void) {
 /* Strings */
 static const char *mgos_config_str_table[] = {
   "*",
-  "/",
   "192.168.10.1",
   "192.168.10.100",
   "192.168.10.2",
   "255.255.255.0",
-  "80",
   "Inventoteca_2G",
   "PanelErgonomia_??????",
   "RPC",
