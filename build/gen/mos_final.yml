@@ -13,164 +13,164 @@ platforms:
 author: Inventoeca
 description: Base para configuracion de dispositivos IoT
 sources:
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/src/main.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/build/gen/mgos_deps_init.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/mbedtls/src/mgos_mbedtls.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/mbedtls/src/esp8266/esp_aes.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/mbedtls/src/esp8266/esp_md5.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/mbedtls/src/esp8266/esp_sha1.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/aes.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/aes_atca.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/aesni.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/arc4.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/aria.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/asn1parse.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/asn1write.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/base64.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/bignum.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/blowfish.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/camellia.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ccm.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/certs.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/chacha20.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/chachapoly.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/cipher.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/cipher_wrap.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/cmac.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ctr_drbg.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/debug.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/des.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/dhm.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ecdh.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ecdsa.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ecjpake.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ecp.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ecp_atca.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ecp_curves.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/entropy.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/entropy_poll.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/error.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/gcm.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/havege.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/hkdf.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/hmac_drbg.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/md.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/md2.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/md4.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/md5.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/md_wrap.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/memory_buffer_alloc.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/net_sockets.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/nist_kw.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/oid.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/padlock.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/pem.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/pk.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/pk_wrap.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/pkcs11.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/pkcs12.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/pkcs5.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/pkparse.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/pkwrite.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/platform.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/platform_util.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/poly1305.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ripemd160.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/rsa.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/rsa_internal.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/sha1.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/sha256.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/sha512.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ssl_cache.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ssl_ciphersuites.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ssl_cli.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ssl_cookie.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ssl_srv.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ssl_ticket.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ssl_tls.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/threading.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/timing.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/version.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/version_features.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/x509.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/x509_create.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/x509_crl.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/x509_crt.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/x509_csr.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/x509write_crt.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/x509write_csr.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/xtea.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-common/src/mgos_vfs.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-common/src/mgos_vfs_dev.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-common/src/mgos_vfs_internal.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-common/src/esp8266/esp_fs.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-common/src/esp8266/esp_vfs_dev_sysflash.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-dev-part/src/mgos_vfs_dev_part.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-lfs/src/mgos_vfs_lfs.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-lfs/littlefs/lfs.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-lfs/littlefs/lfs_util.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-lfs/littlefs1/lfs1.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-lfs/littlefs1/lfs1_util.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-spiffs/src/mgos_vfs_fs_spiffs.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-spiffs/src/spiffs/spiffs_cache.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-spiffs/src/spiffs/spiffs_check.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-spiffs/src/spiffs/spiffs_gc.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-spiffs/src/spiffs/spiffs_hydrogen.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-spiffs/src/spiffs/spiffs_nucleus.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/core/src/mgos_core.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/core/src/esp8266/esp_rboot.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/http-server/src/mgos_http_server.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/mdash-api/src/mgos_mdash_api.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/neopixel/src/mgos_neopixel.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-common/src/mg_rpc.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-common/src/mg_rpc_channel.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-common/src/mg_rpc_channel_http.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-common/src/mgos_rpc.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-service-config/src/mgos_service_config.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-service-fs/src/mgos_service_fs.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-service-gpio/src/mgos_gpio_service.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-uart/src/mgos_rpc_channel_uart.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/wifi/src/mgos_wifi.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/wifi/src/mjs_wifi.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/wifi/src/esp8266/esp_wifi.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-ws/src/mgos_rpc_channel_ws.c
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-ws/src/mgos_rpc_ws.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/src/main.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/build/gen/mgos_deps_init.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/mbedtls/src/mgos_mbedtls.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/mbedtls/src/esp8266/esp_aes.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/mbedtls/src/esp8266/esp_md5.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/mbedtls/src/esp8266/esp_sha1.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/aes.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/aes_atca.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/aesni.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/arc4.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/aria.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/asn1parse.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/asn1write.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/base64.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/bignum.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/blowfish.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/camellia.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ccm.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/certs.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/chacha20.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/chachapoly.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/cipher.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/cipher_wrap.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/cmac.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ctr_drbg.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/debug.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/des.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/dhm.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ecdh.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ecdsa.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ecjpake.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ecp.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ecp_atca.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ecp_curves.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/entropy.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/entropy_poll.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/error.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/gcm.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/havege.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/hkdf.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/hmac_drbg.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/md.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/md2.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/md4.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/md5.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/md_wrap.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/memory_buffer_alloc.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/net_sockets.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/nist_kw.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/oid.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/padlock.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/pem.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/pk.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/pk_wrap.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/pkcs11.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/pkcs12.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/pkcs5.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/pkparse.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/pkwrite.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/platform.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/platform_util.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/poly1305.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ripemd160.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/rsa.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/rsa_internal.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/sha1.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/sha256.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/sha512.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ssl_cache.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ssl_ciphersuites.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ssl_cli.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ssl_cookie.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ssl_srv.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ssl_ticket.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ssl_tls.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/threading.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/timing.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/version.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/version_features.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/x509.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/x509_create.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/x509_crl.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/x509_crt.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/x509_csr.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/x509write_crt.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/x509write_csr.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/xtea.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-common/src/mgos_vfs.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-common/src/mgos_vfs_dev.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-common/src/mgos_vfs_internal.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-common/src/esp8266/esp_fs.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-common/src/esp8266/esp_vfs_dev_sysflash.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-dev-part/src/mgos_vfs_dev_part.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-lfs/src/mgos_vfs_lfs.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-lfs/littlefs/lfs.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-lfs/littlefs/lfs_util.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-lfs/littlefs1/lfs1.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-lfs/littlefs1/lfs1_util.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-spiffs/src/mgos_vfs_fs_spiffs.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-spiffs/src/spiffs/spiffs_cache.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-spiffs/src/spiffs/spiffs_check.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-spiffs/src/spiffs/spiffs_gc.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-spiffs/src/spiffs/spiffs_hydrogen.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-spiffs/src/spiffs/spiffs_nucleus.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/core/src/mgos_core.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/core/src/esp8266/esp_rboot.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/http-server/src/mgos_http_server.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/mdash-api/src/mgos_mdash_api.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/neopixel/src/mgos_neopixel.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-common/src/mg_rpc.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-common/src/mg_rpc_channel.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-common/src/mg_rpc_channel_http.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-common/src/mgos_rpc.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-service-config/src/mgos_service_config.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-service-fs/src/mgos_service_fs.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-service-gpio/src/mgos_gpio_service.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-uart/src/mgos_rpc_channel_uart.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/wifi/src/mgos_wifi.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/wifi/src/mjs_wifi.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/wifi/src/esp8266/esp_wifi.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-ws/src/mgos_rpc_channel_ws.c
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-ws/src/mgos_rpc_ws.c
 includes:
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/mbedtls/include
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/mbedtls/include/esp8266
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/include
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-common/include
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-common/include/esp8266
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/mongoose/include
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-dev-part/include
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-lfs/include
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-lfs/littlefs
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-lfs/littlefs1
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-spiffs/include
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-spiffs/include/spiffs
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-spiffs/include/esp8266
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/core/include
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/core/include/esp8266
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/http-server/include
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/mdash-api/include
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/neopixel/include
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-common/include
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-service-config/include
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-service-gpio/include
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-uart/include
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/wifi/include
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/wifi/include/esp8266
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-ws/include
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/mbedtls/include
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/mbedtls/include/esp8266
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/include
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-common/include
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-common/include/esp8266
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/mongoose/include
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-dev-part/include
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-lfs/include
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-lfs/littlefs
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-lfs/littlefs1
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-spiffs/include
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-spiffs/include/spiffs
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-spiffs/include/esp8266
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/core/include
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/core/include/esp8266
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/http-server/include
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/mdash-api/include
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/neopixel/include
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-common/include
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-service-config/include
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-service-gpio/include
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-uart/include
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/wifi/include
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/wifi/include/esp8266
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-ws/include
 filesystem:
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/ca-bundle/fs/ca.pem
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/wifi-setup-web-ui/fs/htm.min.js
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/wifi-setup-web-ui/fs/index.html
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/wifi-setup-web-ui/fs/json-rpc-ws.js
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/wifi-setup-web-ui/fs/main.js
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/wifi-setup-web-ui/fs/preact.min.js
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/fs/main.js
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/ca-bundle/fs/ca.pem
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/wifi-setup-web-ui/fs/htm.min.js
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/wifi-setup-web-ui/fs/index.html
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/wifi-setup-web-ui/fs/json-rpc-ws.js
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/wifi-setup-web-ui/fs/main.js
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/wifi-setup-web-ui/fs/preact.min.js
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/fs/main.js
 binary_libs:
-- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/build/objs/libmongoose-esp8266-2.19.1.a
+- /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/build/objs/libmongoose-esp8266-2.19.1.a
 modules:
 - origin: https://github.com/mongoose-os/mbedtls
   location: https://github.com/mongoose-os/mbedtls
@@ -779,11 +779,11 @@ config_schema:
   - false
 - - wifi.ap.ssid
   - s
-  - Invento_??????
+  - PanelErgonomia_??????
   - title: SSID
 - - wifi.ap.pass
   - s
-  - "12345678"
+  - smartindustry
   - title: Password
     type: password
 - - wifi.ap.ip
@@ -910,156 +910,156 @@ libs_handled:
     origin: https://github.com/mongoose-os-libs/mbedtls
     location: https://github.com/mongoose-os-libs/mbedtls
     name: mbedtls
-  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/mbedtls
+  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/mbedtls
   sources:
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/mbedtls/src/mgos_mbedtls.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/mbedtls/src/esp8266/esp_aes.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/mbedtls/src/esp8266/esp_md5.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/mbedtls/src/esp8266/esp_sha1.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/aes.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/aes_atca.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/aesni.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/arc4.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/aria.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/asn1parse.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/asn1write.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/base64.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/bignum.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/blowfish.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/camellia.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ccm.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/certs.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/chacha20.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/chachapoly.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/cipher.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/cipher_wrap.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/cmac.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ctr_drbg.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/debug.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/des.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/dhm.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ecdh.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ecdsa.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ecjpake.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ecp.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ecp_atca.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ecp_curves.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/entropy.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/entropy_poll.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/error.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/gcm.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/havege.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/hkdf.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/hmac_drbg.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/md.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/md2.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/md4.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/md5.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/md_wrap.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/memory_buffer_alloc.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/net_sockets.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/nist_kw.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/oid.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/padlock.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/pem.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/pk.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/pk_wrap.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/pkcs11.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/pkcs12.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/pkcs5.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/pkparse.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/pkwrite.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/platform.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/platform_util.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/poly1305.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ripemd160.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/rsa.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/rsa_internal.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/sha1.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/sha256.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/sha512.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ssl_cache.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ssl_ciphersuites.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ssl_cli.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ssl_cookie.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ssl_srv.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ssl_ticket.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/ssl_tls.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/threading.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/timing.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/version.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/version_features.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/x509.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/x509_create.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/x509_crl.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/x509_crt.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/x509_csr.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/x509write_crt.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/x509write_csr.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/modules/mbedtls/library/xtea.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/mbedtls/src/mgos_mbedtls.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/mbedtls/src/esp8266/esp_aes.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/mbedtls/src/esp8266/esp_md5.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/mbedtls/src/esp8266/esp_sha1.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/aes.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/aes_atca.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/aesni.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/arc4.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/aria.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/asn1parse.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/asn1write.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/base64.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/bignum.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/blowfish.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/camellia.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ccm.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/certs.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/chacha20.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/chachapoly.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/cipher.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/cipher_wrap.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/cmac.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ctr_drbg.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/debug.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/des.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/dhm.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ecdh.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ecdsa.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ecjpake.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ecp.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ecp_atca.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ecp_curves.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/entropy.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/entropy_poll.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/error.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/gcm.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/havege.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/hkdf.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/hmac_drbg.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/md.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/md2.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/md4.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/md5.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/md_wrap.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/memory_buffer_alloc.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/net_sockets.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/nist_kw.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/oid.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/padlock.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/pem.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/pk.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/pk_wrap.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/pkcs11.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/pkcs12.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/pkcs5.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/pkparse.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/pkwrite.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/platform.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/platform_util.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/poly1305.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ripemd160.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/rsa.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/rsa_internal.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/sha1.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/sha256.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/sha512.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ssl_cache.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ssl_ciphersuites.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ssl_cli.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ssl_cookie.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ssl_srv.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ssl_ticket.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/ssl_tls.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/threading.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/timing.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/version.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/version_features.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/x509.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/x509_create.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/x509_crl.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/x509_crt.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/x509_csr.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/x509write_crt.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/x509write_csr.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/modules/mbedtls/library/xtea.c
   version: 2.16.6-cesanta1
 - lib:
     origin: https://github.com/mongoose-os-libs/vfs-common
     location: https://github.com/mongoose-os-libs/vfs-common
     name: vfs-common
-  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-common
+  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-common
   sources:
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-common/src/mgos_vfs.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-common/src/mgos_vfs_dev.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-common/src/mgos_vfs_internal.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-common/src/esp8266/esp_fs.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-common/src/esp8266/esp_vfs_dev_sysflash.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-common/src/mgos_vfs.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-common/src/mgos_vfs_dev.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-common/src/mgos_vfs_internal.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-common/src/esp8266/esp_fs.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-common/src/esp8266/esp_vfs_dev_sysflash.c
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/mongoose
     location: https://github.com/mongoose-os-libs/mongoose
     name: mongoose
-  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/mongoose
+  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/mongoose
   version: "6.18"
 - lib:
     origin: https://github.com/mongoose-os-libs/vfs-dev-part
     location: https://github.com/mongoose-os-libs/vfs-dev-part
     name: vfs-dev-part
-  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-dev-part
+  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-dev-part
   init_deps:
   - vfs-common
   sources:
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-dev-part/src/mgos_vfs_dev_part.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-dev-part/src/mgos_vfs_dev_part.c
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/vfs-fs-lfs
     location: https://github.com/mongoose-os-libs/vfs-fs-lfs
     name: vfs-fs-lfs
-  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-lfs
+  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-lfs
   init_deps:
   - vfs-common
   sources:
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-lfs/src/mgos_vfs_lfs.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-lfs/littlefs/lfs.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-lfs/littlefs/lfs_util.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-lfs/littlefs1/lfs1.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-lfs/littlefs1/lfs1_util.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-lfs/src/mgos_vfs_lfs.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-lfs/littlefs/lfs.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-lfs/littlefs/lfs_util.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-lfs/littlefs1/lfs1.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-lfs/littlefs1/lfs1_util.c
   version: 2.2.0
 - lib:
     origin: https://github.com/mongoose-os-libs/vfs-fs-spiffs
     location: https://github.com/mongoose-os-libs/vfs-fs-spiffs
     name: vfs-fs-spiffs
-  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-spiffs
+  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-spiffs
   init_deps:
   - vfs-common
   sources:
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-spiffs/src/mgos_vfs_fs_spiffs.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-spiffs/src/spiffs/spiffs_cache.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-spiffs/src/spiffs/spiffs_check.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-spiffs/src/spiffs/spiffs_gc.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-spiffs/src/spiffs/spiffs_hydrogen.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/vfs-fs-spiffs/src/spiffs/spiffs_nucleus.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-spiffs/src/mgos_vfs_fs_spiffs.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-spiffs/src/spiffs/spiffs_cache.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-spiffs/src/spiffs/spiffs_check.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-spiffs/src/spiffs/spiffs_gc.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-spiffs/src/spiffs/spiffs_hydrogen.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/vfs-fs-spiffs/src/spiffs/spiffs_nucleus.c
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/core
     location: https://github.com/mongoose-os-libs/core
     name: core
-  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/core
+  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/core
   init_deps:
   - mongoose
   - vfs-common
@@ -1067,14 +1067,14 @@ libs_handled:
   - vfs-fs-lfs
   - vfs-fs-spiffs
   sources:
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/core/src/mgos_core.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/core/src/esp8266/esp_rboot.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/core/src/mgos_core.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/core/src/esp8266/esp_rboot.c
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/ca-bundle
     location: https://github.com/mongoose-os-libs/ca-bundle
     name: ca-bundle
-  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/ca-bundle
+  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/ca-bundle
   init_deps:
   - core
   version: "1.0"
@@ -1082,123 +1082,123 @@ libs_handled:
     origin: https://github.com/mongoose-os-libs/http-server
     location: https://github.com/mongoose-os-libs/http-server
     name: http-server
-  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/http-server
+  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/http-server
   init_deps:
   - core
   - wifi
   sources:
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/http-server/src/mgos_http_server.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/http-server/src/mgos_http_server.c
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/mdash-api
     location: https://github.com/mongoose-os-libs/mdash-api
     name: mdash-api
-  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/mdash-api
+  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/mdash-api
   init_deps:
   - core
   sources:
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/mdash-api/src/mgos_mdash_api.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/mdash-api/src/mgos_mdash_api.c
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/neopixel
     location: https://github.com/mongoose-os-libs/neopixel
     name: neopixel
-  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/neopixel
+  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/neopixel
   init_deps:
   - core
   sources:
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/neopixel/src/mgos_neopixel.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/neopixel/src/mgos_neopixel.c
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/rpc-common
     location: https://github.com/mongoose-os-libs/rpc-common
     name: rpc-common
-  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-common
+  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-common
   init_deps:
   - core
   - http-server
   - mongoose
   sources:
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-common/src/mg_rpc.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-common/src/mg_rpc_channel.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-common/src/mg_rpc_channel_http.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-common/src/mgos_rpc.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-common/src/mg_rpc.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-common/src/mg_rpc_channel.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-common/src/mg_rpc_channel_http.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-common/src/mgos_rpc.c
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/rpc-service-config
     location: https://github.com/mongoose-os-libs/rpc-service-config
     name: rpc-service-config
-  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-service-config
+  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-service-config
   init_deps:
   - core
   - rpc-common
   sources:
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-service-config/src/mgos_service_config.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-service-config/src/mgos_service_config.c
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/rpc-service-fs
     location: https://github.com/mongoose-os-libs/rpc-service-fs
     name: rpc-service-fs
-  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-service-fs
+  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-service-fs
   init_deps:
   - core
   - rpc-common
   - vfs-common
   sources:
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-service-fs/src/mgos_service_fs.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-service-fs/src/mgos_service_fs.c
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/rpc-service-gpio
     location: https://github.com/mongoose-os-libs/rpc-service-gpio
     name: rpc-service-gpio
-  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-service-gpio
+  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-service-gpio
   init_deps:
   - core
   - rpc-common
   sources:
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-service-gpio/src/mgos_gpio_service.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-service-gpio/src/mgos_gpio_service.c
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/rpc-uart
     location: https://github.com/mongoose-os-libs/rpc-uart
     name: rpc-uart
-  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-uart
+  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-uart
   init_deps:
   - core
   - rpc-common
   sources:
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-uart/src/mgos_rpc_channel_uart.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-uart/src/mgos_rpc_channel_uart.c
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/wifi
     location: https://github.com/mongoose-os-libs/wifi
     name: wifi
-  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/wifi
+  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/wifi
   init_deps:
   - core
   sources:
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/wifi/src/mgos_wifi.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/wifi/src/mjs_wifi.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/wifi/src/esp8266/esp_wifi.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/wifi/src/mgos_wifi.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/wifi/src/mjs_wifi.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/wifi/src/esp8266/esp_wifi.c
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/rpc-ws
     location: https://github.com/mongoose-os-libs/rpc-ws
     name: rpc-ws
-  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-ws
+  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-ws
   init_deps:
   - core
   - http-server
   - rpc-common
   sources:
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-ws/src/mgos_rpc_channel_ws.c
-  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/rpc-ws/src/mgos_rpc_ws.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-ws/src/mgos_rpc_channel_ws.c
+  - /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/rpc-ws/src/mgos_rpc_ws.c
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/wifi-setup-web-ui
     location: https://github.com/mongoose-os-libs/wifi-setup-web-ui
     name: wifi-setup-web-ui
-  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/wifi-setup-web-ui
+  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/wifi-setup-web-ui
   init_deps:
   - core
   - rpc-ws
@@ -1207,7 +1207,7 @@ libs_handled:
     origin: https://github.com/mongoose-os-libs/boards
     location: https://github.com/mongoose-os-libs/boards
     name: zz_boards
-  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/deps/boards
+  path: /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/deps/boards
 init_deps:
 - mongoose
 - vfs-common

@@ -1,7 +1,7 @@
 /* clang-format off */
 /*
  * Generated file - do not edit.
- * Command: /mongoose-os/tools/mgos_gen_config.py --c_name=mgos_config --c_global_name=mgos_sys_config --dest_dir=/data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/build/gen/ /mongoose-os/src/mgos_debug_udp_config.yaml /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_256239132/build/gen/mos_conf_schema.yml
+ * Command: /mongoose-os/tools/mgos_gen_config.py --c_name=mgos_config --c_global_name=mgos_sys_config --dest_dir=/data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/build/gen/ /mongoose-os/src/mgos_debug_udp_config.yaml /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/build/gen/mos_conf_schema.yml
  */
 
 #include "mgos_config.h"
@@ -713,8 +713,8 @@ const struct mgos_conf_entry *mgos_config_wifi_ap_get_schema(void) {
 
 void mgos_config_wifi_ap_set_defaults(struct mgos_config_wifi_ap *cfg) {
   cfg->enable = true;
-  cfg->ssid = "Invento_??????";
-  cfg->pass = "12345678";
+  cfg->ssid = "PanelErgonomia_??????";
+  cfg->pass = "smartindustry";
   cfg->hidden = false;
   cfg->channel = 6;
   cfg->max_connections = 10;
@@ -1708,12 +1708,12 @@ void mgos_config_set_wifi_ap_enable(struct mgos_config *cfg, int v) { cfg->wifi.
 
 /* wifi.ap.ssid */
 const char * mgos_config_get_wifi_ap_ssid(const struct mgos_config *cfg) { return cfg->wifi.ap.ssid; }
-const char * mgos_config_get_default_wifi_ap_ssid(void) { return "Invento_??????"; }
+const char * mgos_config_get_default_wifi_ap_ssid(void) { return "PanelErgonomia_??????"; }
 void mgos_config_set_wifi_ap_ssid(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->wifi.ap.ssid, v); }
 
 /* wifi.ap.pass */
 const char * mgos_config_get_wifi_ap_pass(const struct mgos_config *cfg) { return cfg->wifi.ap.pass; }
-const char * mgos_config_get_default_wifi_ap_pass(void) { return "12345678"; }
+const char * mgos_config_get_default_wifi_ap_pass(void) { return "smartindustry"; }
 void mgos_config_set_wifi_ap_pass(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->wifi.ap.pass, v); }
 
 /* wifi.ap.hidden */
@@ -2090,17 +2090,17 @@ const struct mgos_conf_entry *mgos_config_schema(void) {
 static const char *mgos_config_str_table[] = {
   "*",
   "/",
-  "12345678",
   "192.168.10.1",
   "192.168.10.100",
   "192.168.10.2",
   "255.255.255.0",
   "80",
-  "Invento_??????",
   "Inventoteca_2G",
+  "PanelErgonomia_??????",
   "RPC",
   "esp8266_??????",
   "science_7425",
+  "smartindustry",
 };
 
 bool mgos_config_is_default_str(const char *s) {

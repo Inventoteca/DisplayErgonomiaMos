@@ -19,8 +19,8 @@ filesystem:
   - fs
 
 config_schema:
-  - ["wifi.ap.ssid", "s", "Invento_??????", {title: "SSID"}]
-  - ["wifi.ap.pass", "s", "12345678", {title: "Password", type: "password"}]
+  - ["wifi.ap.ssid", "s", "PanelErgonomia_??????", {title: "SSID"}]
+  - ["wifi.ap.pass", "s", "smartindustry", {title: "Password", type: "password"}]
   - ["wifi.ap.ip", "s", "192.168.10.1", {title: "IP address"}]
   - ["wifi.ap.netmask", "s", "255.255.255.0", {title: "Network Mask"}]
   - ["wifi.ap.gw", "s", "192.168.10.1", {title: "Default Gateway"}]

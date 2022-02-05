@@ -600,11 +600,11 @@
   - false
 - - wifi.ap.ssid
   - s
-  - Invento_??????
+  - PanelErgonomia_??????
   - title: SSID
 - - wifi.ap.pass
   - s
-  - "12345678"
+  - smartindustry
   - title: Password
     type: password
 - - wifi.ap.ip
