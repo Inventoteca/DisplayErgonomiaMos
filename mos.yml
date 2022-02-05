@@ -30,6 +30,7 @@ config_schema:
   - ["wifi.sta.enable", "b", true , {title: "Connect to existing WiFi"}]
   - ["wifi.sta.ssid", "s","Inventoteca_2G", {title: "SSID"}]
   - ["wifi.sta.pass", "s","science_7425", {title: "Password", type: "password"}]
+  - ["app.pin", "i", 12, {title: "GPIO pin a sensor is attached to"}]  
 
 # List of libraries used by this app, in order of initialisation
 libs:
@@ -42,8 +43,8 @@ libs:
   - origin: https://github.com/mongoose-os-libs/wifi
   - origin: https://github.com/mongoose-os-libs/wifi-setup-web-ui
   - origin: https://github.com/mongoose-os-libs/neopixel
-  - origin: https://github.com/mongoose-os-libs/mdash-api
   - origin: https://github.com/mongoose-os-libs/rpc-service-gpio
+  - origin: https://github.com/mongoose-os-libs/dht
 
 cdefs:
   MG_ENABLE_DNS: 1

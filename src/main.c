@@ -16,16 +16,30 @@
  */
 
 #include "common/cs_dbg.h"
-
 #include "mgos_app.h"
 #include "mgos_neopixel.h"
 #include "mgos_timers.h"
+#include "mgos.h"
+#include "mgos_dht.h"
+#include "mgos_rpc.h"
 
 #define PIN 14 //GPIO14
 #define NUM_PIXELS 272
 #define ORDER MGOS_NEOPIXEL_ORDER_GRB
 
 struct mgos_neopixel *s_strip = NULL;
+//struct mgos_dht *dht = NULL;
+
+static void timer_cb(void *dht) {
+  LOG(LL_INFO, ("Temperature: %lf", mgos_dht_get_temp(dht)));
+}
+
+static void rpc_cb(struct mg_rpc_request_info *ri, void *cb_arg,
+                   struct mg_rpc_frame_info *fi, struct mg_str args) {
+  mg_rpc_send_responsef(ri, "{value: %lf}", mgos_dht_get_temp(cb_arg));
+  (void) fi;
+  (void) args;
+}
 
 static void pixel_timer_cb(void *arg) 
 {
@@ -42,6 +56,9 @@ static void pixel_timer_cb(void *arg)
 enum mgos_app_init_result mgos_app_init(void) 
 {
   s_strip = mgos_neopixel_create(PIN, NUM_PIXELS, ORDER);
-  mgos_set_timer(100 /* ms */, MGOS_TIMER_REPEAT, pixel_timer_cb, NULL);
+  mgos_set_timer(500 /* ms */, MGOS_TIMER_REPEAT, pixel_timer_cb, NULL);
+  struct mgos_dht *dht = mgos_dht_create(mgos_sys_config_get_app_pin(), DHT22);
+  mgos_set_timer(1000, true, timer_cb, dht);
+  mg_rpc_add_handler(mgos_rpc_get_global(), "Temp.Read", "", rpc_cb, dht);
   return MGOS_APP_INIT_SUCCESS;
 }

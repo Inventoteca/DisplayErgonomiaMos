@@ -14,10 +14,10 @@ extern bool mgos_vfs_dev_part_init(void);
 extern bool mgos_vfs_fs_lfs_init(void);
 extern bool mgos_vfs_fs_spiffs_init(void);
 extern bool mgos_core_init(void);
+extern bool mgos_dht_init(void);
 extern bool mgos_wifi_init(void);
 extern bool mgos_http_server_init(void);
 extern bool mgos_mbedtls_init(void);
-extern bool mgos_mdash_api_init(void);
 extern bool mgos_neopixel_init(void);
 extern bool mgos_rpc_common_init(void);
 extern bool mgos_rpc_service_config_init(void);
@@ -54,6 +54,9 @@ const struct mgos_lib_info mgos_libs_info[] = {
     // "core". deps: [ "mongoose" "vfs-common" "vfs-dev-part" "vfs-fs-lfs" "vfs-fs-spiffs" ]
     {.name = "core", .version = "1.0", .init = mgos_core_init},
 
+    // "dht". deps: [ "core" ]
+    {.name = "dht", .version = "1.0", .init = mgos_dht_init},
+
     // "wifi". deps: [ "core" ]
     {.name = "wifi", .version = "1.0", .init = mgos_wifi_init},
 
@@ -62,9 +65,6 @@ const struct mgos_lib_info mgos_libs_info[] = {
 
     // "mbedtls". deps: [ ]
     {.name = "mbedtls", .version = "2.16.6-cesanta1", .init = mgos_mbedtls_init},
-
-    // "mdash-api". deps: [ "core" ]
-    {.name = "mdash-api", .version = "1.0", .init = mgos_mdash_api_init},
 
     // "neopixel". deps: [ "core" ]
     {.name = "neopixel", .version = "1.0", .init = mgos_neopixel_init},

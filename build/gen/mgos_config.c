@@ -1,7 +1,7 @@
 /* clang-format off */
 /*
  * Generated file - do not edit.
- * Command: /mongoose-os/tools/mgos_gen_config.py --c_name=mgos_config --c_global_name=mgos_sys_config --dest_dir=/data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/build/gen/ /mongoose-os/src/mgos_debug_udp_config.yaml /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_688003925/build/gen/mos_conf_schema.yml
+ * Command: /mongoose-os/tools/mgos_gen_config.py --c_name=mgos_config --c_global_name=mgos_sys_config --dest_dir=/data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_969766401/build/gen/ /mongoose-os/src/mgos_debug_udp_config.yaml /data/fwbuild-volumes/2.19.1/apps/mos-serverus-panel-ergo/esp8266/build_contexts/build_ctx_969766401/build/gen/mos_conf_schema.yml
  */
 
 #include "mgos_config.h"
@@ -13,7 +13,7 @@
 
 /* struct mgos_config */
 static const struct mgos_conf_entry mgos_config_schema_[] = {
-    {.type = CONF_TYPE_OBJECT, .key = "", .offset = 0, .num_desc = 253},
+    {.type = CONF_TYPE_OBJECT, .key = "", .offset = 0, .num_desc = 142},
     {.type = CONF_TYPE_OBJECT, .key = "debug", .offset = offsetof(struct mgos_config, debug), .num_desc = 10},
     {.type = CONF_TYPE_STRING, .key = "udp_log_addr", .offset = offsetof(struct mgos_config, debug.udp_log_addr)},
     {.type = CONF_TYPE_INT, .key = "udp_log_level", .offset = offsetof(struct mgos_config, debug.udp_log_level)},
@@ -49,119 +49,6 @@ static const struct mgos_conf_entry mgos_config_schema_[] = {
     {.type = CONF_TYPE_STRING, .key = "auth_domain", .offset = offsetof(struct mgos_config, http.auth_domain)},
     {.type = CONF_TYPE_STRING, .key = "auth_file", .offset = offsetof(struct mgos_config, http.auth_file)},
     {.type = CONF_TYPE_STRING, .key = "extra_headers", .offset = offsetof(struct mgos_config, http.extra_headers)},
-    {.type = CONF_TYPE_OBJECT, .key = "mdash", .offset = offsetof(struct mgos_config, mdash), .num_desc = 112},
-    {.type = CONF_TYPE_STRING, .key = "device_id", .offset = offsetof(struct mgos_config, mdash.device_id)},
-    {.type = CONF_TYPE_STRING, .key = "api_key", .offset = offsetof(struct mgos_config, mdash.api_key)},
-    {.type = CONF_TYPE_OBJECT, .key = "value", .offset = offsetof(struct mgos_config, mdash.value), .num_desc = 3},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, mdash.value.enable)},
-    {.type = CONF_TYPE_STRING, .key = "title", .offset = offsetof(struct mgos_config, mdash.value.title)},
-    {.type = CONF_TYPE_STRING, .key = "key", .offset = offsetof(struct mgos_config, mdash.value.key)},
-    {.type = CONF_TYPE_OBJECT, .key = "value1", .offset = offsetof(struct mgos_config, mdash.value1), .num_desc = 3},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, mdash.value1.enable)},
-    {.type = CONF_TYPE_STRING, .key = "title", .offset = offsetof(struct mgos_config, mdash.value1.title)},
-    {.type = CONF_TYPE_STRING, .key = "key", .offset = offsetof(struct mgos_config, mdash.value1.key)},
-    {.type = CONF_TYPE_OBJECT, .key = "value2", .offset = offsetof(struct mgos_config, mdash.value2), .num_desc = 3},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, mdash.value2.enable)},
-    {.type = CONF_TYPE_STRING, .key = "title", .offset = offsetof(struct mgos_config, mdash.value2.title)},
-    {.type = CONF_TYPE_STRING, .key = "key", .offset = offsetof(struct mgos_config, mdash.value2.key)},
-    {.type = CONF_TYPE_OBJECT, .key = "value3", .offset = offsetof(struct mgos_config, mdash.value3), .num_desc = 3},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, mdash.value3.enable)},
-    {.type = CONF_TYPE_STRING, .key = "title", .offset = offsetof(struct mgos_config, mdash.value3.title)},
-    {.type = CONF_TYPE_STRING, .key = "key", .offset = offsetof(struct mgos_config, mdash.value3.key)},
-    {.type = CONF_TYPE_OBJECT, .key = "value4", .offset = offsetof(struct mgos_config, mdash.value4), .num_desc = 3},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, mdash.value4.enable)},
-    {.type = CONF_TYPE_STRING, .key = "title", .offset = offsetof(struct mgos_config, mdash.value4.title)},
-    {.type = CONF_TYPE_STRING, .key = "key", .offset = offsetof(struct mgos_config, mdash.value4.key)},
-    {.type = CONF_TYPE_OBJECT, .key = "value5", .offset = offsetof(struct mgos_config, mdash.value5), .num_desc = 3},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, mdash.value5.enable)},
-    {.type = CONF_TYPE_STRING, .key = "title", .offset = offsetof(struct mgos_config, mdash.value5.title)},
-    {.type = CONF_TYPE_STRING, .key = "key", .offset = offsetof(struct mgos_config, mdash.value5.key)},
-    {.type = CONF_TYPE_OBJECT, .key = "value6", .offset = offsetof(struct mgos_config, mdash.value6), .num_desc = 3},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, mdash.value6.enable)},
-    {.type = CONF_TYPE_STRING, .key = "title", .offset = offsetof(struct mgos_config, mdash.value6.title)},
-    {.type = CONF_TYPE_STRING, .key = "key", .offset = offsetof(struct mgos_config, mdash.value6.key)},
-    {.type = CONF_TYPE_OBJECT, .key = "value7", .offset = offsetof(struct mgos_config, mdash.value7), .num_desc = 3},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, mdash.value7.enable)},
-    {.type = CONF_TYPE_STRING, .key = "title", .offset = offsetof(struct mgos_config, mdash.value7.title)},
-    {.type = CONF_TYPE_STRING, .key = "key", .offset = offsetof(struct mgos_config, mdash.value7.key)},
-    {.type = CONF_TYPE_OBJECT, .key = "value8", .offset = offsetof(struct mgos_config, mdash.value8), .num_desc = 3},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, mdash.value8.enable)},
-    {.type = CONF_TYPE_STRING, .key = "title", .offset = offsetof(struct mgos_config, mdash.value8.title)},
-    {.type = CONF_TYPE_STRING, .key = "key", .offset = offsetof(struct mgos_config, mdash.value8.key)},
-    {.type = CONF_TYPE_OBJECT, .key = "value9", .offset = offsetof(struct mgos_config, mdash.value9), .num_desc = 3},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, mdash.value9.enable)},
-    {.type = CONF_TYPE_STRING, .key = "title", .offset = offsetof(struct mgos_config, mdash.value9.title)},
-    {.type = CONF_TYPE_STRING, .key = "key", .offset = offsetof(struct mgos_config, mdash.value9.key)},
-    {.type = CONF_TYPE_OBJECT, .key = "input", .offset = offsetof(struct mgos_config, mdash.input), .num_desc = 3},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, mdash.input.enable)},
-    {.type = CONF_TYPE_STRING, .key = "title", .offset = offsetof(struct mgos_config, mdash.input.title)},
-    {.type = CONF_TYPE_STRING, .key = "key", .offset = offsetof(struct mgos_config, mdash.input.key)},
-    {.type = CONF_TYPE_OBJECT, .key = "input1", .offset = offsetof(struct mgos_config, mdash.input1), .num_desc = 3},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, mdash.input1.enable)},
-    {.type = CONF_TYPE_STRING, .key = "title", .offset = offsetof(struct mgos_config, mdash.input1.title)},
-    {.type = CONF_TYPE_STRING, .key = "key", .offset = offsetof(struct mgos_config, mdash.input1.key)},
-    {.type = CONF_TYPE_OBJECT, .key = "input2", .offset = offsetof(struct mgos_config, mdash.input2), .num_desc = 3},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, mdash.input2.enable)},
-    {.type = CONF_TYPE_STRING, .key = "title", .offset = offsetof(struct mgos_config, mdash.input2.title)},
-    {.type = CONF_TYPE_STRING, .key = "key", .offset = offsetof(struct mgos_config, mdash.input2.key)},
-    {.type = CONF_TYPE_OBJECT, .key = "input3", .offset = offsetof(struct mgos_config, mdash.input3), .num_desc = 3},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, mdash.input3.enable)},
-    {.type = CONF_TYPE_STRING, .key = "title", .offset = offsetof(struct mgos_config, mdash.input3.title)},
-    {.type = CONF_TYPE_STRING, .key = "key", .offset = offsetof(struct mgos_config, mdash.input3.key)},
-    {.type = CONF_TYPE_OBJECT, .key = "input4", .offset = offsetof(struct mgos_config, mdash.input4), .num_desc = 3},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, mdash.input4.enable)},
-    {.type = CONF_TYPE_STRING, .key = "title", .offset = offsetof(struct mgos_config, mdash.input4.title)},
-    {.type = CONF_TYPE_STRING, .key = "key", .offset = offsetof(struct mgos_config, mdash.input4.key)},
-    {.type = CONF_TYPE_OBJECT, .key = "input5", .offset = offsetof(struct mgos_config, mdash.input5), .num_desc = 3},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, mdash.input5.enable)},
-    {.type = CONF_TYPE_STRING, .key = "title", .offset = offsetof(struct mgos_config, mdash.input5.title)},
-    {.type = CONF_TYPE_STRING, .key = "key", .offset = offsetof(struct mgos_config, mdash.input5.key)},
-    {.type = CONF_TYPE_OBJECT, .key = "input6", .offset = offsetof(struct mgos_config, mdash.input6), .num_desc = 3},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, mdash.input6.enable)},
-    {.type = CONF_TYPE_STRING, .key = "title", .offset = offsetof(struct mgos_config, mdash.input6.title)},
-    {.type = CONF_TYPE_STRING, .key = "key", .offset = offsetof(struct mgos_config, mdash.input6.key)},
-    {.type = CONF_TYPE_OBJECT, .key = "input7", .offset = offsetof(struct mgos_config, mdash.input7), .num_desc = 3},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, mdash.input7.enable)},
-    {.type = CONF_TYPE_STRING, .key = "title", .offset = offsetof(struct mgos_config, mdash.input7.title)},
-    {.type = CONF_TYPE_STRING, .key = "key", .offset = offsetof(struct mgos_config, mdash.input7.key)},
-    {.type = CONF_TYPE_OBJECT, .key = "input8", .offset = offsetof(struct mgos_config, mdash.input8), .num_desc = 3},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, mdash.input8.enable)},
-    {.type = CONF_TYPE_STRING, .key = "title", .offset = offsetof(struct mgos_config, mdash.input8.title)},
-    {.type = CONF_TYPE_STRING, .key = "key", .offset = offsetof(struct mgos_config, mdash.input8.key)},
-    {.type = CONF_TYPE_OBJECT, .key = "input9", .offset = offsetof(struct mgos_config, mdash.input9), .num_desc = 3},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, mdash.input9.enable)},
-    {.type = CONF_TYPE_STRING, .key = "title", .offset = offsetof(struct mgos_config, mdash.input9.title)},
-    {.type = CONF_TYPE_STRING, .key = "key", .offset = offsetof(struct mgos_config, mdash.input9.key)},
-    {.type = CONF_TYPE_OBJECT, .key = "toggle", .offset = offsetof(struct mgos_config, mdash.toggle), .num_desc = 3},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, mdash.toggle.enable)},
-    {.type = CONF_TYPE_STRING, .key = "title", .offset = offsetof(struct mgos_config, mdash.toggle.title)},
-    {.type = CONF_TYPE_STRING, .key = "key", .offset = offsetof(struct mgos_config, mdash.toggle.key)},
-    {.type = CONF_TYPE_OBJECT, .key = "toggle1", .offset = offsetof(struct mgos_config, mdash.toggle1), .num_desc = 3},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, mdash.toggle1.enable)},
-    {.type = CONF_TYPE_STRING, .key = "title", .offset = offsetof(struct mgos_config, mdash.toggle1.title)},
-    {.type = CONF_TYPE_STRING, .key = "key", .offset = offsetof(struct mgos_config, mdash.toggle1.key)},
-    {.type = CONF_TYPE_OBJECT, .key = "toggle2", .offset = offsetof(struct mgos_config, mdash.toggle2), .num_desc = 3},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, mdash.toggle2.enable)},
-    {.type = CONF_TYPE_STRING, .key = "title", .offset = offsetof(struct mgos_config, mdash.toggle2.title)},
-    {.type = CONF_TYPE_STRING, .key = "key", .offset = offsetof(struct mgos_config, mdash.toggle2.key)},
-    {.type = CONF_TYPE_OBJECT, .key = "button", .offset = offsetof(struct mgos_config, mdash.button), .num_desc = 5},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, mdash.button.enable)},
-    {.type = CONF_TYPE_STRING, .key = "title", .offset = offsetof(struct mgos_config, mdash.button.title)},
-    {.type = CONF_TYPE_STRING, .key = "method", .offset = offsetof(struct mgos_config, mdash.button.method)},
-    {.type = CONF_TYPE_STRING, .key = "params", .offset = offsetof(struct mgos_config, mdash.button.params)},
-    {.type = CONF_TYPE_STRING, .key = "icon", .offset = offsetof(struct mgos_config, mdash.button.icon)},
-    {.type = CONF_TYPE_OBJECT, .key = "button1", .offset = offsetof(struct mgos_config, mdash.button1), .num_desc = 5},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, mdash.button1.enable)},
-    {.type = CONF_TYPE_STRING, .key = "title", .offset = offsetof(struct mgos_config, mdash.button1.title)},
-    {.type = CONF_TYPE_STRING, .key = "method", .offset = offsetof(struct mgos_config, mdash.button1.method)},
-    {.type = CONF_TYPE_STRING, .key = "params", .offset = offsetof(struct mgos_config, mdash.button1.params)},
-    {.type = CONF_TYPE_STRING, .key = "icon", .offset = offsetof(struct mgos_config, mdash.button1.icon)},
-    {.type = CONF_TYPE_OBJECT, .key = "button2", .offset = offsetof(struct mgos_config, mdash.button2), .num_desc = 5},
-    {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, mdash.button2.enable)},
-    {.type = CONF_TYPE_STRING, .key = "title", .offset = offsetof(struct mgos_config, mdash.button2.title)},
-    {.type = CONF_TYPE_STRING, .key = "method", .offset = offsetof(struct mgos_config, mdash.button2.method)},
-    {.type = CONF_TYPE_STRING, .key = "params", .offset = offsetof(struct mgos_config, mdash.button2.params)},
-    {.type = CONF_TYPE_STRING, .key = "icon", .offset = offsetof(struct mgos_config, mdash.button2.icon)},
     {.type = CONF_TYPE_OBJECT, .key = "rpc", .offset = offsetof(struct mgos_config, rpc), .num_desc = 23},
     {.type = CONF_TYPE_BOOL, .key = "enable", .offset = offsetof(struct mgos_config, rpc.enable)},
     {.type = CONF_TYPE_BOOL, .key = "http_enable", .offset = offsetof(struct mgos_config, rpc.http_enable)},
@@ -267,6 +154,8 @@ static const struct mgos_conf_entry mgos_config_schema_[] = {
     {.type = CONF_TYPE_OBJECT, .key = "btn3", .offset = offsetof(struct mgos_config, board.btn3), .num_desc = 2},
     {.type = CONF_TYPE_INT, .key = "pin", .offset = offsetof(struct mgos_config, board.btn3.pin)},
     {.type = CONF_TYPE_BOOL, .key = "pull_up", .offset = offsetof(struct mgos_config, board.btn3.pull_up)},
+    {.type = CONF_TYPE_OBJECT, .key = "app", .offset = offsetof(struct mgos_config, app), .num_desc = 1},
+    {.type = CONF_TYPE_INT, .key = "pin", .offset = offsetof(struct mgos_config, app.pin)},
 };
 
 /* struct mgos_config_debug */
@@ -331,337 +220,9 @@ void mgos_config_http_set_defaults(struct mgos_config_http *cfg) {
   cfg->extra_headers = NULL;
 }
 
-/* struct mgos_config_mdash_value */
-const struct mgos_conf_entry *mgos_config_mdash_value_get_schema(void) {
-  return &mgos_config_schema_[75];
-}
-
-void mgos_config_mdash_value_set_defaults(struct mgos_config_mdash_value *cfg) {
-  cfg->enable = true;
-  cfg->title = NULL;
-  cfg->key = NULL;
-}
-
-/* struct mgos_config_mdash_value */
-const struct mgos_conf_entry *mgos_config_mdash_value1_get_schema(void) {
-  return &mgos_config_schema_[75];
-}
-
-void mgos_config_mdash_value1_set_defaults(struct mgos_config_mdash_value *cfg) {
-  cfg->enable = false;
-  cfg->title = NULL;
-  cfg->key = NULL;
-}
-
-/* struct mgos_config_mdash_value */
-const struct mgos_conf_entry *mgos_config_mdash_value2_get_schema(void) {
-  return &mgos_config_schema_[75];
-}
-
-void mgos_config_mdash_value2_set_defaults(struct mgos_config_mdash_value *cfg) {
-  cfg->enable = false;
-  cfg->title = NULL;
-  cfg->key = NULL;
-}
-
-/* struct mgos_config_mdash_value */
-const struct mgos_conf_entry *mgos_config_mdash_value3_get_schema(void) {
-  return &mgos_config_schema_[75];
-}
-
-void mgos_config_mdash_value3_set_defaults(struct mgos_config_mdash_value *cfg) {
-  cfg->enable = false;
-  cfg->title = NULL;
-  cfg->key = NULL;
-}
-
-/* struct mgos_config_mdash_value */
-const struct mgos_conf_entry *mgos_config_mdash_value4_get_schema(void) {
-  return &mgos_config_schema_[75];
-}
-
-void mgos_config_mdash_value4_set_defaults(struct mgos_config_mdash_value *cfg) {
-  cfg->enable = false;
-  cfg->title = NULL;
-  cfg->key = NULL;
-}
-
-/* struct mgos_config_mdash_value */
-const struct mgos_conf_entry *mgos_config_mdash_value5_get_schema(void) {
-  return &mgos_config_schema_[75];
-}
-
-void mgos_config_mdash_value5_set_defaults(struct mgos_config_mdash_value *cfg) {
-  cfg->enable = false;
-  cfg->title = NULL;
-  cfg->key = NULL;
-}
-
-/* struct mgos_config_mdash_value */
-const struct mgos_conf_entry *mgos_config_mdash_value6_get_schema(void) {
-  return &mgos_config_schema_[75];
-}
-
-void mgos_config_mdash_value6_set_defaults(struct mgos_config_mdash_value *cfg) {
-  cfg->enable = false;
-  cfg->title = NULL;
-  cfg->key = NULL;
-}
-
-/* struct mgos_config_mdash_value */
-const struct mgos_conf_entry *mgos_config_mdash_value7_get_schema(void) {
-  return &mgos_config_schema_[75];
-}
-
-void mgos_config_mdash_value7_set_defaults(struct mgos_config_mdash_value *cfg) {
-  cfg->enable = false;
-  cfg->title = NULL;
-  cfg->key = NULL;
-}
-
-/* struct mgos_config_mdash_value */
-const struct mgos_conf_entry *mgos_config_mdash_value8_get_schema(void) {
-  return &mgos_config_schema_[75];
-}
-
-void mgos_config_mdash_value8_set_defaults(struct mgos_config_mdash_value *cfg) {
-  cfg->enable = false;
-  cfg->title = NULL;
-  cfg->key = NULL;
-}
-
-/* struct mgos_config_mdash_value */
-const struct mgos_conf_entry *mgos_config_mdash_value9_get_schema(void) {
-  return &mgos_config_schema_[75];
-}
-
-void mgos_config_mdash_value9_set_defaults(struct mgos_config_mdash_value *cfg) {
-  cfg->enable = false;
-  cfg->title = NULL;
-  cfg->key = NULL;
-}
-
-/* struct mgos_config_mdash_input */
-const struct mgos_conf_entry *mgos_config_mdash_input_get_schema(void) {
-  return &mgos_config_schema_[115];
-}
-
-void mgos_config_mdash_input_set_defaults(struct mgos_config_mdash_input *cfg) {
-  cfg->enable = false;
-  cfg->title = NULL;
-  cfg->key = NULL;
-}
-
-/* struct mgos_config_mdash_input */
-const struct mgos_conf_entry *mgos_config_mdash_input1_get_schema(void) {
-  return &mgos_config_schema_[115];
-}
-
-void mgos_config_mdash_input1_set_defaults(struct mgos_config_mdash_input *cfg) {
-  cfg->enable = false;
-  cfg->title = NULL;
-  cfg->key = NULL;
-}
-
-/* struct mgos_config_mdash_input */
-const struct mgos_conf_entry *mgos_config_mdash_input2_get_schema(void) {
-  return &mgos_config_schema_[115];
-}
-
-void mgos_config_mdash_input2_set_defaults(struct mgos_config_mdash_input *cfg) {
-  cfg->enable = false;
-  cfg->title = NULL;
-  cfg->key = NULL;
-}
-
-/* struct mgos_config_mdash_input */
-const struct mgos_conf_entry *mgos_config_mdash_input3_get_schema(void) {
-  return &mgos_config_schema_[115];
-}
-
-void mgos_config_mdash_input3_set_defaults(struct mgos_config_mdash_input *cfg) {
-  cfg->enable = false;
-  cfg->title = NULL;
-  cfg->key = NULL;
-}
-
-/* struct mgos_config_mdash_input */
-const struct mgos_conf_entry *mgos_config_mdash_input4_get_schema(void) {
-  return &mgos_config_schema_[115];
-}
-
-void mgos_config_mdash_input4_set_defaults(struct mgos_config_mdash_input *cfg) {
-  cfg->enable = false;
-  cfg->title = NULL;
-  cfg->key = NULL;
-}
-
-/* struct mgos_config_mdash_input */
-const struct mgos_conf_entry *mgos_config_mdash_input5_get_schema(void) {
-  return &mgos_config_schema_[115];
-}
-
-void mgos_config_mdash_input5_set_defaults(struct mgos_config_mdash_input *cfg) {
-  cfg->enable = false;
-  cfg->title = NULL;
-  cfg->key = NULL;
-}
-
-/* struct mgos_config_mdash_input */
-const struct mgos_conf_entry *mgos_config_mdash_input6_get_schema(void) {
-  return &mgos_config_schema_[115];
-}
-
-void mgos_config_mdash_input6_set_defaults(struct mgos_config_mdash_input *cfg) {
-  cfg->enable = false;
-  cfg->title = NULL;
-  cfg->key = NULL;
-}
-
-/* struct mgos_config_mdash_input */
-const struct mgos_conf_entry *mgos_config_mdash_input7_get_schema(void) {
-  return &mgos_config_schema_[115];
-}
-
-void mgos_config_mdash_input7_set_defaults(struct mgos_config_mdash_input *cfg) {
-  cfg->enable = false;
-  cfg->title = NULL;
-  cfg->key = NULL;
-}
-
-/* struct mgos_config_mdash_input */
-const struct mgos_conf_entry *mgos_config_mdash_input8_get_schema(void) {
-  return &mgos_config_schema_[115];
-}
-
-void mgos_config_mdash_input8_set_defaults(struct mgos_config_mdash_input *cfg) {
-  cfg->enable = false;
-  cfg->title = NULL;
-  cfg->key = NULL;
-}
-
-/* struct mgos_config_mdash_input */
-const struct mgos_conf_entry *mgos_config_mdash_input9_get_schema(void) {
-  return &mgos_config_schema_[115];
-}
-
-void mgos_config_mdash_input9_set_defaults(struct mgos_config_mdash_input *cfg) {
-  cfg->enable = false;
-  cfg->title = NULL;
-  cfg->key = NULL;
-}
-
-/* struct mgos_config_mdash_toggle */
-const struct mgos_conf_entry *mgos_config_mdash_toggle_get_schema(void) {
-  return &mgos_config_schema_[127];
-}
-
-void mgos_config_mdash_toggle_set_defaults(struct mgos_config_mdash_toggle *cfg) {
-  cfg->enable = false;
-  cfg->title = NULL;
-  cfg->key = NULL;
-}
-
-/* struct mgos_config_mdash_toggle */
-const struct mgos_conf_entry *mgos_config_mdash_toggle1_get_schema(void) {
-  return &mgos_config_schema_[127];
-}
-
-void mgos_config_mdash_toggle1_set_defaults(struct mgos_config_mdash_toggle *cfg) {
-  cfg->enable = false;
-  cfg->title = NULL;
-  cfg->key = NULL;
-}
-
-/* struct mgos_config_mdash_toggle */
-const struct mgos_conf_entry *mgos_config_mdash_toggle2_get_schema(void) {
-  return &mgos_config_schema_[127];
-}
-
-void mgos_config_mdash_toggle2_set_defaults(struct mgos_config_mdash_toggle *cfg) {
-  cfg->enable = false;
-  cfg->title = NULL;
-  cfg->key = NULL;
-}
-
-/* struct mgos_config_mdash_button */
-const struct mgos_conf_entry *mgos_config_mdash_button_get_schema(void) {
-  return &mgos_config_schema_[143];
-}
-
-void mgos_config_mdash_button_set_defaults(struct mgos_config_mdash_button *cfg) {
-  cfg->enable = false;
-  cfg->title = NULL;
-  cfg->method = NULL;
-  cfg->params = NULL;
-  cfg->icon = NULL;
-}
-
-/* struct mgos_config_mdash_button */
-const struct mgos_conf_entry *mgos_config_mdash_button1_get_schema(void) {
-  return &mgos_config_schema_[143];
-}
-
-void mgos_config_mdash_button1_set_defaults(struct mgos_config_mdash_button *cfg) {
-  cfg->enable = false;
-  cfg->title = NULL;
-  cfg->method = NULL;
-  cfg->params = NULL;
-  cfg->icon = NULL;
-}
-
-/* struct mgos_config_mdash_button */
-const struct mgos_conf_entry *mgos_config_mdash_button2_get_schema(void) {
-  return &mgos_config_schema_[143];
-}
-
-void mgos_config_mdash_button2_set_defaults(struct mgos_config_mdash_button *cfg) {
-  cfg->enable = false;
-  cfg->title = NULL;
-  cfg->method = NULL;
-  cfg->params = NULL;
-  cfg->icon = NULL;
-}
-
-/* struct mgos_config_mdash */
-const struct mgos_conf_entry *mgos_config_mdash_get_schema(void) {
-  return &mgos_config_schema_[36];
-}
-
-void mgos_config_mdash_set_defaults(struct mgos_config_mdash *cfg) {
-  cfg->device_id = NULL;
-  cfg->api_key = NULL;
-  mgos_config_mdash_value_set_defaults(&cfg->value);
-  mgos_config_mdash_value1_set_defaults(&cfg->value1);
-  mgos_config_mdash_value2_set_defaults(&cfg->value2);
-  mgos_config_mdash_value3_set_defaults(&cfg->value3);
-  mgos_config_mdash_value4_set_defaults(&cfg->value4);
-  mgos_config_mdash_value5_set_defaults(&cfg->value5);
-  mgos_config_mdash_value6_set_defaults(&cfg->value6);
-  mgos_config_mdash_value7_set_defaults(&cfg->value7);
-  mgos_config_mdash_value8_set_defaults(&cfg->value8);
-  mgos_config_mdash_value9_set_defaults(&cfg->value9);
-  mgos_config_mdash_input_set_defaults(&cfg->input);
-  mgos_config_mdash_input1_set_defaults(&cfg->input1);
-  mgos_config_mdash_input2_set_defaults(&cfg->input2);
-  mgos_config_mdash_input3_set_defaults(&cfg->input3);
-  mgos_config_mdash_input4_set_defaults(&cfg->input4);
-  mgos_config_mdash_input5_set_defaults(&cfg->input5);
-  mgos_config_mdash_input6_set_defaults(&cfg->input6);
-  mgos_config_mdash_input7_set_defaults(&cfg->input7);
-  mgos_config_mdash_input8_set_defaults(&cfg->input8);
-  mgos_config_mdash_input9_set_defaults(&cfg->input9);
-  mgos_config_mdash_toggle_set_defaults(&cfg->toggle);
-  mgos_config_mdash_toggle1_set_defaults(&cfg->toggle1);
-  mgos_config_mdash_toggle2_set_defaults(&cfg->toggle2);
-  mgos_config_mdash_button_set_defaults(&cfg->button);
-  mgos_config_mdash_button1_set_defaults(&cfg->button1);
-  mgos_config_mdash_button2_set_defaults(&cfg->button2);
-}
-
 /* struct mgos_config_rpc_uart */
 const struct mgos_conf_entry *mgos_config_rpc_uart_get_schema(void) {
-  return &mgos_config_schema_[159];
+  return &mgos_config_schema_[46];
 }
 
 void mgos_config_rpc_uart_set_defaults(struct mgos_config_rpc_uart *cfg) {
@@ -673,7 +234,7 @@ void mgos_config_rpc_uart_set_defaults(struct mgos_config_rpc_uart *cfg) {
 
 /* struct mgos_config_rpc_ws */
 const struct mgos_conf_entry *mgos_config_rpc_ws_get_schema(void) {
-  return &mgos_config_schema_[164];
+  return &mgos_config_schema_[51];
 }
 
 void mgos_config_rpc_ws_set_defaults(struct mgos_config_rpc_ws *cfg) {
@@ -689,7 +250,7 @@ void mgos_config_rpc_ws_set_defaults(struct mgos_config_rpc_ws *cfg) {
 
 /* struct mgos_config_rpc */
 const struct mgos_conf_entry *mgos_config_rpc_get_schema(void) {
-  return &mgos_config_schema_[149];
+  return &mgos_config_schema_[36];
 }
 
 void mgos_config_rpc_set_defaults(struct mgos_config_rpc *cfg) {
@@ -708,7 +269,7 @@ void mgos_config_rpc_set_defaults(struct mgos_config_rpc *cfg) {
 
 /* struct mgos_config_wifi_ap */
 const struct mgos_conf_entry *mgos_config_wifi_ap_get_schema(void) {
-  return &mgos_config_schema_[174];
+  return &mgos_config_schema_[61];
 }
 
 void mgos_config_wifi_ap_set_defaults(struct mgos_config_wifi_ap *cfg) {
@@ -731,7 +292,7 @@ void mgos_config_wifi_ap_set_defaults(struct mgos_config_wifi_ap *cfg) {
 
 /* struct mgos_config_wifi_sta */
 const struct mgos_conf_entry *mgos_config_wifi_sta_get_schema(void) {
-  return &mgos_config_schema_[218];
+  return &mgos_config_schema_[105];
 }
 
 void mgos_config_wifi_sta_set_defaults(struct mgos_config_wifi_sta *cfg) {
@@ -752,7 +313,7 @@ void mgos_config_wifi_sta_set_defaults(struct mgos_config_wifi_sta *cfg) {
 
 /* struct mgos_config_wifi_sta */
 const struct mgos_conf_entry *mgos_config_wifi_sta1_get_schema(void) {
-  return &mgos_config_schema_[218];
+  return &mgos_config_schema_[105];
 }
 
 void mgos_config_wifi_sta1_set_defaults(struct mgos_config_wifi_sta *cfg) {
@@ -773,7 +334,7 @@ void mgos_config_wifi_sta1_set_defaults(struct mgos_config_wifi_sta *cfg) {
 
 /* struct mgos_config_wifi_sta */
 const struct mgos_conf_entry *mgos_config_wifi_sta2_get_schema(void) {
-  return &mgos_config_schema_[218];
+  return &mgos_config_schema_[105];
 }
 
 void mgos_config_wifi_sta2_set_defaults(struct mgos_config_wifi_sta *cfg) {
@@ -794,7 +355,7 @@ void mgos_config_wifi_sta2_set_defaults(struct mgos_config_wifi_sta *cfg) {
 
 /* struct mgos_config_wifi */
 const struct mgos_conf_entry *mgos_config_wifi_get_schema(void) {
-  return &mgos_config_schema_[173];
+  return &mgos_config_schema_[60];
 }
 
 void mgos_config_wifi_set_defaults(struct mgos_config_wifi *cfg) {
@@ -809,7 +370,7 @@ void mgos_config_wifi_set_defaults(struct mgos_config_wifi *cfg) {
 
 /* struct mgos_config_board_led1 */
 const struct mgos_conf_entry *mgos_config_board_led1_get_schema(void) {
-  return &mgos_config_schema_[236];
+  return &mgos_config_schema_[123];
 }
 
 void mgos_config_board_led1_set_defaults(struct mgos_config_board_led1 *cfg) {
@@ -819,7 +380,7 @@ void mgos_config_board_led1_set_defaults(struct mgos_config_board_led1 *cfg) {
 
 /* struct mgos_config_board_led2 */
 const struct mgos_conf_entry *mgos_config_board_led2_get_schema(void) {
-  return &mgos_config_schema_[239];
+  return &mgos_config_schema_[126];
 }
 
 void mgos_config_board_led2_set_defaults(struct mgos_config_board_led2 *cfg) {
@@ -829,7 +390,7 @@ void mgos_config_board_led2_set_defaults(struct mgos_config_board_led2 *cfg) {
 
 /* struct mgos_config_board_led3 */
 const struct mgos_conf_entry *mgos_config_board_led3_get_schema(void) {
-  return &mgos_config_schema_[242];
+  return &mgos_config_schema_[129];
 }
 
 void mgos_config_board_led3_set_defaults(struct mgos_config_board_led3 *cfg) {
@@ -839,7 +400,7 @@ void mgos_config_board_led3_set_defaults(struct mgos_config_board_led3 *cfg) {
 
 /* struct mgos_config_board_btn1 */
 const struct mgos_conf_entry *mgos_config_board_btn1_get_schema(void) {
-  return &mgos_config_schema_[245];
+  return &mgos_config_schema_[132];
 }
 
 void mgos_config_board_btn1_set_defaults(struct mgos_config_board_btn1 *cfg) {
@@ -849,7 +410,7 @@ void mgos_config_board_btn1_set_defaults(struct mgos_config_board_btn1 *cfg) {
 
 /* struct mgos_config_board_btn2 */
 const struct mgos_conf_entry *mgos_config_board_btn2_get_schema(void) {
-  return &mgos_config_schema_[248];
+  return &mgos_config_schema_[135];
 }
 
 void mgos_config_board_btn2_set_defaults(struct mgos_config_board_btn2 *cfg) {
@@ -859,7 +420,7 @@ void mgos_config_board_btn2_set_defaults(struct mgos_config_board_btn2 *cfg) {
 
 /* struct mgos_config_board_btn3 */
 const struct mgos_conf_entry *mgos_config_board_btn3_get_schema(void) {
-  return &mgos_config_schema_[251];
+  return &mgos_config_schema_[138];
 }
 
 void mgos_config_board_btn3_set_defaults(struct mgos_config_board_btn3 *cfg) {
@@ -869,7 +430,7 @@ void mgos_config_board_btn3_set_defaults(struct mgos_config_board_btn3 *cfg) {
 
 /* struct mgos_config_board */
 const struct mgos_conf_entry *mgos_config_board_get_schema(void) {
-  return &mgos_config_schema_[235];
+  return &mgos_config_schema_[122];
 }
 
 void mgos_config_board_set_defaults(struct mgos_config_board *cfg) {
@@ -879,6 +440,15 @@ void mgos_config_board_set_defaults(struct mgos_config_board *cfg) {
   mgos_config_board_btn1_set_defaults(&cfg->btn1);
   mgos_config_board_btn2_set_defaults(&cfg->btn2);
   mgos_config_board_btn3_set_defaults(&cfg->btn3);
+}
+
+/* struct mgos_config_app */
+const struct mgos_conf_entry *mgos_config_app_get_schema(void) {
+  return &mgos_config_schema_[141];
+}
+
+void mgos_config_app_set_defaults(struct mgos_config_app *cfg) {
+  cfg->pin = 12;
 }
 
 /* struct mgos_config */
@@ -892,10 +462,10 @@ void mgos_config_set_defaults(struct mgos_config *cfg) {
   mgos_config_sys_set_defaults(&cfg->sys);
   cfg->conf_acl = "*";
   mgos_config_http_set_defaults(&cfg->http);
-  mgos_config_mdash_set_defaults(&cfg->mdash);
   mgos_config_rpc_set_defaults(&cfg->rpc);
   mgos_config_wifi_set_defaults(&cfg->wifi);
   mgos_config_board_set_defaults(&cfg->board);
+  mgos_config_app_set_defaults(&cfg->app);
 }
 
 /* Global instance */
@@ -1069,517 +639,6 @@ void mgos_config_set_http_auth_file(struct mgos_config *cfg, const char * v) { m
 const char * mgos_config_get_http_extra_headers(const struct mgos_config *cfg) { return cfg->http.extra_headers; }
 const char * mgos_config_get_default_http_extra_headers(void) { return NULL; }
 void mgos_config_set_http_extra_headers(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->http.extra_headers, v); }
-
-/* mdash */
-const struct mgos_config_mdash *mgos_config_get_mdash(const struct mgos_config *cfg) { return &cfg->mdash; }
-
-/* mdash.device_id */
-const char * mgos_config_get_mdash_device_id(const struct mgos_config *cfg) { return cfg->mdash.device_id; }
-const char * mgos_config_get_default_mdash_device_id(void) { return NULL; }
-void mgos_config_set_mdash_device_id(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.device_id, v); }
-
-/* mdash.api_key */
-const char * mgos_config_get_mdash_api_key(const struct mgos_config *cfg) { return cfg->mdash.api_key; }
-const char * mgos_config_get_default_mdash_api_key(void) { return NULL; }
-void mgos_config_set_mdash_api_key(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.api_key, v); }
-
-/* mdash.value */
-const struct mgos_config_mdash_value *mgos_config_get_mdash_value(const struct mgos_config *cfg) { return &cfg->mdash.value; }
-
-/* mdash.value.enable */
-int mgos_config_get_mdash_value_enable(const struct mgos_config *cfg) { return cfg->mdash.value.enable; }
-int mgos_config_get_default_mdash_value_enable(void) { return true; }
-void mgos_config_set_mdash_value_enable(struct mgos_config *cfg, int v) { cfg->mdash.value.enable = v; }
-
-/* mdash.value.title */
-const char * mgos_config_get_mdash_value_title(const struct mgos_config *cfg) { return cfg->mdash.value.title; }
-const char * mgos_config_get_default_mdash_value_title(void) { return NULL; }
-void mgos_config_set_mdash_value_title(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.value.title, v); }
-
-/* mdash.value.key */
-const char * mgos_config_get_mdash_value_key(const struct mgos_config *cfg) { return cfg->mdash.value.key; }
-const char * mgos_config_get_default_mdash_value_key(void) { return NULL; }
-void mgos_config_set_mdash_value_key(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.value.key, v); }
-
-/* mdash.value1 */
-const struct mgos_config_mdash_value *mgos_config_get_mdash_value1(const struct mgos_config *cfg) { return &cfg->mdash.value1; }
-
-/* mdash.value1.enable */
-int mgos_config_get_mdash_value1_enable(const struct mgos_config *cfg) { return cfg->mdash.value1.enable; }
-int mgos_config_get_default_mdash_value1_enable(void) { return false; }
-void mgos_config_set_mdash_value1_enable(struct mgos_config *cfg, int v) { cfg->mdash.value1.enable = v; }
-
-/* mdash.value1.title */
-const char * mgos_config_get_mdash_value1_title(const struct mgos_config *cfg) { return cfg->mdash.value1.title; }
-const char * mgos_config_get_default_mdash_value1_title(void) { return NULL; }
-void mgos_config_set_mdash_value1_title(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.value1.title, v); }
-
-/* mdash.value1.key */
-const char * mgos_config_get_mdash_value1_key(const struct mgos_config *cfg) { return cfg->mdash.value1.key; }
-const char * mgos_config_get_default_mdash_value1_key(void) { return NULL; }
-void mgos_config_set_mdash_value1_key(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.value1.key, v); }
-
-/* mdash.value2 */
-const struct mgos_config_mdash_value *mgos_config_get_mdash_value2(const struct mgos_config *cfg) { return &cfg->mdash.value2; }
-
-/* mdash.value2.enable */
-int mgos_config_get_mdash_value2_enable(const struct mgos_config *cfg) { return cfg->mdash.value2.enable; }
-int mgos_config_get_default_mdash_value2_enable(void) { return false; }
-void mgos_config_set_mdash_value2_enable(struct mgos_config *cfg, int v) { cfg->mdash.value2.enable = v; }
-
-/* mdash.value2.title */
-const char * mgos_config_get_mdash_value2_title(const struct mgos_config *cfg) { return cfg->mdash.value2.title; }
-const char * mgos_config_get_default_mdash_value2_title(void) { return NULL; }
-void mgos_config_set_mdash_value2_title(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.value2.title, v); }
-
-/* mdash.value2.key */
-const char * mgos_config_get_mdash_value2_key(const struct mgos_config *cfg) { return cfg->mdash.value2.key; }
-const char * mgos_config_get_default_mdash_value2_key(void) { return NULL; }
-void mgos_config_set_mdash_value2_key(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.value2.key, v); }
-
-/* mdash.value3 */
-const struct mgos_config_mdash_value *mgos_config_get_mdash_value3(const struct mgos_config *cfg) { return &cfg->mdash.value3; }
-
-/* mdash.value3.enable */
-int mgos_config_get_mdash_value3_enable(const struct mgos_config *cfg) { return cfg->mdash.value3.enable; }
-int mgos_config_get_default_mdash_value3_enable(void) { return false; }
-void mgos_config_set_mdash_value3_enable(struct mgos_config *cfg, int v) { cfg->mdash.value3.enable = v; }
-
-/* mdash.value3.title */
-const char * mgos_config_get_mdash_value3_title(const struct mgos_config *cfg) { return cfg->mdash.value3.title; }
-const char * mgos_config_get_default_mdash_value3_title(void) { return NULL; }
-void mgos_config_set_mdash_value3_title(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.value3.title, v); }
-
-/* mdash.value3.key */
-const char * mgos_config_get_mdash_value3_key(const struct mgos_config *cfg) { return cfg->mdash.value3.key; }
-const char * mgos_config_get_default_mdash_value3_key(void) { return NULL; }
-void mgos_config_set_mdash_value3_key(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.value3.key, v); }
-
-/* mdash.value4 */
-const struct mgos_config_mdash_value *mgos_config_get_mdash_value4(const struct mgos_config *cfg) { return &cfg->mdash.value4; }
-
-/* mdash.value4.enable */
-int mgos_config_get_mdash_value4_enable(const struct mgos_config *cfg) { return cfg->mdash.value4.enable; }
-int mgos_config_get_default_mdash_value4_enable(void) { return false; }
-void mgos_config_set_mdash_value4_enable(struct mgos_config *cfg, int v) { cfg->mdash.value4.enable = v; }
-
-/* mdash.value4.title */
-const char * mgos_config_get_mdash_value4_title(const struct mgos_config *cfg) { return cfg->mdash.value4.title; }
-const char * mgos_config_get_default_mdash_value4_title(void) { return NULL; }
-void mgos_config_set_mdash_value4_title(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.value4.title, v); }
-
-/* mdash.value4.key */
-const char * mgos_config_get_mdash_value4_key(const struct mgos_config *cfg) { return cfg->mdash.value4.key; }
-const char * mgos_config_get_default_mdash_value4_key(void) { return NULL; }
-void mgos_config_set_mdash_value4_key(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.value4.key, v); }
-
-/* mdash.value5 */
-const struct mgos_config_mdash_value *mgos_config_get_mdash_value5(const struct mgos_config *cfg) { return &cfg->mdash.value5; }
-
-/* mdash.value5.enable */
-int mgos_config_get_mdash_value5_enable(const struct mgos_config *cfg) { return cfg->mdash.value5.enable; }
-int mgos_config_get_default_mdash_value5_enable(void) { return false; }
-void mgos_config_set_mdash_value5_enable(struct mgos_config *cfg, int v) { cfg->mdash.value5.enable = v; }
-
-/* mdash.value5.title */
-const char * mgos_config_get_mdash_value5_title(const struct mgos_config *cfg) { return cfg->mdash.value5.title; }
-const char * mgos_config_get_default_mdash_value5_title(void) { return NULL; }
-void mgos_config_set_mdash_value5_title(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.value5.title, v); }
-
-/* mdash.value5.key */
-const char * mgos_config_get_mdash_value5_key(const struct mgos_config *cfg) { return cfg->mdash.value5.key; }
-const char * mgos_config_get_default_mdash_value5_key(void) { return NULL; }
-void mgos_config_set_mdash_value5_key(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.value5.key, v); }
-
-/* mdash.value6 */
-const struct mgos_config_mdash_value *mgos_config_get_mdash_value6(const struct mgos_config *cfg) { return &cfg->mdash.value6; }
-
-/* mdash.value6.enable */
-int mgos_config_get_mdash_value6_enable(const struct mgos_config *cfg) { return cfg->mdash.value6.enable; }
-int mgos_config_get_default_mdash_value6_enable(void) { return false; }
-void mgos_config_set_mdash_value6_enable(struct mgos_config *cfg, int v) { cfg->mdash.value6.enable = v; }
-
-/* mdash.value6.title */
-const char * mgos_config_get_mdash_value6_title(const struct mgos_config *cfg) { return cfg->mdash.value6.title; }
-const char * mgos_config_get_default_mdash_value6_title(void) { return NULL; }
-void mgos_config_set_mdash_value6_title(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.value6.title, v); }
-
-/* mdash.value6.key */
-const char * mgos_config_get_mdash_value6_key(const struct mgos_config *cfg) { return cfg->mdash.value6.key; }
-const char * mgos_config_get_default_mdash_value6_key(void) { return NULL; }
-void mgos_config_set_mdash_value6_key(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.value6.key, v); }
-
-/* mdash.value7 */
-const struct mgos_config_mdash_value *mgos_config_get_mdash_value7(const struct mgos_config *cfg) { return &cfg->mdash.value7; }
-
-/* mdash.value7.enable */
-int mgos_config_get_mdash_value7_enable(const struct mgos_config *cfg) { return cfg->mdash.value7.enable; }
-int mgos_config_get_default_mdash_value7_enable(void) { return false; }
-void mgos_config_set_mdash_value7_enable(struct mgos_config *cfg, int v) { cfg->mdash.value7.enable = v; }
-
-/* mdash.value7.title */
-const char * mgos_config_get_mdash_value7_title(const struct mgos_config *cfg) { return cfg->mdash.value7.title; }
-const char * mgos_config_get_default_mdash_value7_title(void) { return NULL; }
-void mgos_config_set_mdash_value7_title(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.value7.title, v); }
-
-/* mdash.value7.key */
-const char * mgos_config_get_mdash_value7_key(const struct mgos_config *cfg) { return cfg->mdash.value7.key; }
-const char * mgos_config_get_default_mdash_value7_key(void) { return NULL; }
-void mgos_config_set_mdash_value7_key(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.value7.key, v); }
-
-/* mdash.value8 */
-const struct mgos_config_mdash_value *mgos_config_get_mdash_value8(const struct mgos_config *cfg) { return &cfg->mdash.value8; }
-
-/* mdash.value8.enable */
-int mgos_config_get_mdash_value8_enable(const struct mgos_config *cfg) { return cfg->mdash.value8.enable; }
-int mgos_config_get_default_mdash_value8_enable(void) { return false; }
-void mgos_config_set_mdash_value8_enable(struct mgos_config *cfg, int v) { cfg->mdash.value8.enable = v; }
-
-/* mdash.value8.title */
-const char * mgos_config_get_mdash_value8_title(const struct mgos_config *cfg) { return cfg->mdash.value8.title; }
-const char * mgos_config_get_default_mdash_value8_title(void) { return NULL; }
-void mgos_config_set_mdash_value8_title(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.value8.title, v); }
-
-/* mdash.value8.key */
-const char * mgos_config_get_mdash_value8_key(const struct mgos_config *cfg) { return cfg->mdash.value8.key; }
-const char * mgos_config_get_default_mdash_value8_key(void) { return NULL; }
-void mgos_config_set_mdash_value8_key(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.value8.key, v); }
-
-/* mdash.value9 */
-const struct mgos_config_mdash_value *mgos_config_get_mdash_value9(const struct mgos_config *cfg) { return &cfg->mdash.value9; }
-
-/* mdash.value9.enable */
-int mgos_config_get_mdash_value9_enable(const struct mgos_config *cfg) { return cfg->mdash.value9.enable; }
-int mgos_config_get_default_mdash_value9_enable(void) { return false; }
-void mgos_config_set_mdash_value9_enable(struct mgos_config *cfg, int v) { cfg->mdash.value9.enable = v; }
-
-/* mdash.value9.title */
-const char * mgos_config_get_mdash_value9_title(const struct mgos_config *cfg) { return cfg->mdash.value9.title; }
-const char * mgos_config_get_default_mdash_value9_title(void) { return NULL; }
-void mgos_config_set_mdash_value9_title(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.value9.title, v); }
-
-/* mdash.value9.key */
-const char * mgos_config_get_mdash_value9_key(const struct mgos_config *cfg) { return cfg->mdash.value9.key; }
-const char * mgos_config_get_default_mdash_value9_key(void) { return NULL; }
-void mgos_config_set_mdash_value9_key(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.value9.key, v); }
-
-/* mdash.input */
-const struct mgos_config_mdash_input *mgos_config_get_mdash_input(const struct mgos_config *cfg) { return &cfg->mdash.input; }
-
-/* mdash.input.enable */
-int mgos_config_get_mdash_input_enable(const struct mgos_config *cfg) { return cfg->mdash.input.enable; }
-int mgos_config_get_default_mdash_input_enable(void) { return false; }
-void mgos_config_set_mdash_input_enable(struct mgos_config *cfg, int v) { cfg->mdash.input.enable = v; }
-
-/* mdash.input.title */
-const char * mgos_config_get_mdash_input_title(const struct mgos_config *cfg) { return cfg->mdash.input.title; }
-const char * mgos_config_get_default_mdash_input_title(void) { return NULL; }
-void mgos_config_set_mdash_input_title(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.input.title, v); }
-
-/* mdash.input.key */
-const char * mgos_config_get_mdash_input_key(const struct mgos_config *cfg) { return cfg->mdash.input.key; }
-const char * mgos_config_get_default_mdash_input_key(void) { return NULL; }
-void mgos_config_set_mdash_input_key(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.input.key, v); }
-
-/* mdash.input1 */
-const struct mgos_config_mdash_input *mgos_config_get_mdash_input1(const struct mgos_config *cfg) { return &cfg->mdash.input1; }
-
-/* mdash.input1.enable */
-int mgos_config_get_mdash_input1_enable(const struct mgos_config *cfg) { return cfg->mdash.input1.enable; }
-int mgos_config_get_default_mdash_input1_enable(void) { return false; }
-void mgos_config_set_mdash_input1_enable(struct mgos_config *cfg, int v) { cfg->mdash.input1.enable = v; }
-
-/* mdash.input1.title */
-const char * mgos_config_get_mdash_input1_title(const struct mgos_config *cfg) { return cfg->mdash.input1.title; }
-const char * mgos_config_get_default_mdash_input1_title(void) { return NULL; }
-void mgos_config_set_mdash_input1_title(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.input1.title, v); }
-
-/* mdash.input1.key */
-const char * mgos_config_get_mdash_input1_key(const struct mgos_config *cfg) { return cfg->mdash.input1.key; }
-const char * mgos_config_get_default_mdash_input1_key(void) { return NULL; }
-void mgos_config_set_mdash_input1_key(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.input1.key, v); }
-
-/* mdash.input2 */
-const struct mgos_config_mdash_input *mgos_config_get_mdash_input2(const struct mgos_config *cfg) { return &cfg->mdash.input2; }
-
-/* mdash.input2.enable */
-int mgos_config_get_mdash_input2_enable(const struct mgos_config *cfg) { return cfg->mdash.input2.enable; }
-int mgos_config_get_default_mdash_input2_enable(void) { return false; }
-void mgos_config_set_mdash_input2_enable(struct mgos_config *cfg, int v) { cfg->mdash.input2.enable = v; }
-
-/* mdash.input2.title */
-const char * mgos_config_get_mdash_input2_title(const struct mgos_config *cfg) { return cfg->mdash.input2.title; }
-const char * mgos_config_get_default_mdash_input2_title(void) { return NULL; }
-void mgos_config_set_mdash_input2_title(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.input2.title, v); }
-
-/* mdash.input2.key */
-const char * mgos_config_get_mdash_input2_key(const struct mgos_config *cfg) { return cfg->mdash.input2.key; }
-const char * mgos_config_get_default_mdash_input2_key(void) { return NULL; }
-void mgos_config_set_mdash_input2_key(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.input2.key, v); }
-
-/* mdash.input3 */
-const struct mgos_config_mdash_input *mgos_config_get_mdash_input3(const struct mgos_config *cfg) { return &cfg->mdash.input3; }
-
-/* mdash.input3.enable */
-int mgos_config_get_mdash_input3_enable(const struct mgos_config *cfg) { return cfg->mdash.input3.enable; }
-int mgos_config_get_default_mdash_input3_enable(void) { return false; }
-void mgos_config_set_mdash_input3_enable(struct mgos_config *cfg, int v) { cfg->mdash.input3.enable = v; }
-
-/* mdash.input3.title */
-const char * mgos_config_get_mdash_input3_title(const struct mgos_config *cfg) { return cfg->mdash.input3.title; }
-const char * mgos_config_get_default_mdash_input3_title(void) { return NULL; }
-void mgos_config_set_mdash_input3_title(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.input3.title, v); }
-
-/* mdash.input3.key */
-const char * mgos_config_get_mdash_input3_key(const struct mgos_config *cfg) { return cfg->mdash.input3.key; }
-const char * mgos_config_get_default_mdash_input3_key(void) { return NULL; }
-void mgos_config_set_mdash_input3_key(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.input3.key, v); }
-
-/* mdash.input4 */
-const struct mgos_config_mdash_input *mgos_config_get_mdash_input4(const struct mgos_config *cfg) { return &cfg->mdash.input4; }
-
-/* mdash.input4.enable */
-int mgos_config_get_mdash_input4_enable(const struct mgos_config *cfg) { return cfg->mdash.input4.enable; }
-int mgos_config_get_default_mdash_input4_enable(void) { return false; }
-void mgos_config_set_mdash_input4_enable(struct mgos_config *cfg, int v) { cfg->mdash.input4.enable = v; }
-
-/* mdash.input4.title */
-const char * mgos_config_get_mdash_input4_title(const struct mgos_config *cfg) { return cfg->mdash.input4.title; }
-const char * mgos_config_get_default_mdash_input4_title(void) { return NULL; }
-void mgos_config_set_mdash_input4_title(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.input4.title, v); }
-
-/* mdash.input4.key */
-const char * mgos_config_get_mdash_input4_key(const struct mgos_config *cfg) { return cfg->mdash.input4.key; }
-const char * mgos_config_get_default_mdash_input4_key(void) { return NULL; }
-void mgos_config_set_mdash_input4_key(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.input4.key, v); }
-
-/* mdash.input5 */
-const struct mgos_config_mdash_input *mgos_config_get_mdash_input5(const struct mgos_config *cfg) { return &cfg->mdash.input5; }
-
-/* mdash.input5.enable */
-int mgos_config_get_mdash_input5_enable(const struct mgos_config *cfg) { return cfg->mdash.input5.enable; }
-int mgos_config_get_default_mdash_input5_enable(void) { return false; }
-void mgos_config_set_mdash_input5_enable(struct mgos_config *cfg, int v) { cfg->mdash.input5.enable = v; }
-
-/* mdash.input5.title */
-const char * mgos_config_get_mdash_input5_title(const struct mgos_config *cfg) { return cfg->mdash.input5.title; }
-const char * mgos_config_get_default_mdash_input5_title(void) { return NULL; }
-void mgos_config_set_mdash_input5_title(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.input5.title, v); }
-
-/* mdash.input5.key */
-const char * mgos_config_get_mdash_input5_key(const struct mgos_config *cfg) { return cfg->mdash.input5.key; }
-const char * mgos_config_get_default_mdash_input5_key(void) { return NULL; }
-void mgos_config_set_mdash_input5_key(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.input5.key, v); }
-
-/* mdash.input6 */
-const struct mgos_config_mdash_input *mgos_config_get_mdash_input6(const struct mgos_config *cfg) { return &cfg->mdash.input6; }
-
-/* mdash.input6.enable */
-int mgos_config_get_mdash_input6_enable(const struct mgos_config *cfg) { return cfg->mdash.input6.enable; }
-int mgos_config_get_default_mdash_input6_enable(void) { return false; }
-void mgos_config_set_mdash_input6_enable(struct mgos_config *cfg, int v) { cfg->mdash.input6.enable = v; }
-
-/* mdash.input6.title */
-const char * mgos_config_get_mdash_input6_title(const struct mgos_config *cfg) { return cfg->mdash.input6.title; }
-const char * mgos_config_get_default_mdash_input6_title(void) { return NULL; }
-void mgos_config_set_mdash_input6_title(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.input6.title, v); }
-
-/* mdash.input6.key */
-const char * mgos_config_get_mdash_input6_key(const struct mgos_config *cfg) { return cfg->mdash.input6.key; }
-const char * mgos_config_get_default_mdash_input6_key(void) { return NULL; }
-void mgos_config_set_mdash_input6_key(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.input6.key, v); }
-
-/* mdash.input7 */
-const struct mgos_config_mdash_input *mgos_config_get_mdash_input7(const struct mgos_config *cfg) { return &cfg->mdash.input7; }
-
-/* mdash.input7.enable */
-int mgos_config_get_mdash_input7_enable(const struct mgos_config *cfg) { return cfg->mdash.input7.enable; }
-int mgos_config_get_default_mdash_input7_enable(void) { return false; }
-void mgos_config_set_mdash_input7_enable(struct mgos_config *cfg, int v) { cfg->mdash.input7.enable = v; }
-
-/* mdash.input7.title */
-const char * mgos_config_get_mdash_input7_title(const struct mgos_config *cfg) { return cfg->mdash.input7.title; }
-const char * mgos_config_get_default_mdash_input7_title(void) { return NULL; }
-void mgos_config_set_mdash_input7_title(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.input7.title, v); }
-
-/* mdash.input7.key */
-const char * mgos_config_get_mdash_input7_key(const struct mgos_config *cfg) { return cfg->mdash.input7.key; }
-const char * mgos_config_get_default_mdash_input7_key(void) { return NULL; }
-void mgos_config_set_mdash_input7_key(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.input7.key, v); }
-
-/* mdash.input8 */
-const struct mgos_config_mdash_input *mgos_config_get_mdash_input8(const struct mgos_config *cfg) { return &cfg->mdash.input8; }
-
-/* mdash.input8.enable */
-int mgos_config_get_mdash_input8_enable(const struct mgos_config *cfg) { return cfg->mdash.input8.enable; }
-int mgos_config_get_default_mdash_input8_enable(void) { return false; }
-void mgos_config_set_mdash_input8_enable(struct mgos_config *cfg, int v) { cfg->mdash.input8.enable = v; }
-
-/* mdash.input8.title */
-const char * mgos_config_get_mdash_input8_title(const struct mgos_config *cfg) { return cfg->mdash.input8.title; }
-const char * mgos_config_get_default_mdash_input8_title(void) { return NULL; }
-void mgos_config_set_mdash_input8_title(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.input8.title, v); }
-
-/* mdash.input8.key */
-const char * mgos_config_get_mdash_input8_key(const struct mgos_config *cfg) { return cfg->mdash.input8.key; }
-const char * mgos_config_get_default_mdash_input8_key(void) { return NULL; }
-void mgos_config_set_mdash_input8_key(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.input8.key, v); }
-
-/* mdash.input9 */
-const struct mgos_config_mdash_input *mgos_config_get_mdash_input9(const struct mgos_config *cfg) { return &cfg->mdash.input9; }
-
-/* mdash.input9.enable */
-int mgos_config_get_mdash_input9_enable(const struct mgos_config *cfg) { return cfg->mdash.input9.enable; }
-int mgos_config_get_default_mdash_input9_enable(void) { return false; }
-void mgos_config_set_mdash_input9_enable(struct mgos_config *cfg, int v) { cfg->mdash.input9.enable = v; }
-
-/* mdash.input9.title */
-const char * mgos_config_get_mdash_input9_title(const struct mgos_config *cfg) { return cfg->mdash.input9.title; }
-const char * mgos_config_get_default_mdash_input9_title(void) { return NULL; }
-void mgos_config_set_mdash_input9_title(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.input9.title, v); }
-
-/* mdash.input9.key */
-const char * mgos_config_get_mdash_input9_key(const struct mgos_config *cfg) { return cfg->mdash.input9.key; }
-const char * mgos_config_get_default_mdash_input9_key(void) { return NULL; }
-void mgos_config_set_mdash_input9_key(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.input9.key, v); }
-
-/* mdash.toggle */
-const struct mgos_config_mdash_toggle *mgos_config_get_mdash_toggle(const struct mgos_config *cfg) { return &cfg->mdash.toggle; }
-
-/* mdash.toggle.enable */
-int mgos_config_get_mdash_toggle_enable(const struct mgos_config *cfg) { return cfg->mdash.toggle.enable; }
-int mgos_config_get_default_mdash_toggle_enable(void) { return false; }
-void mgos_config_set_mdash_toggle_enable(struct mgos_config *cfg, int v) { cfg->mdash.toggle.enable = v; }
-
-/* mdash.toggle.title */
-const char * mgos_config_get_mdash_toggle_title(const struct mgos_config *cfg) { return cfg->mdash.toggle.title; }
-const char * mgos_config_get_default_mdash_toggle_title(void) { return NULL; }
-void mgos_config_set_mdash_toggle_title(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.toggle.title, v); }
-
-/* mdash.toggle.key */
-const char * mgos_config_get_mdash_toggle_key(const struct mgos_config *cfg) { return cfg->mdash.toggle.key; }
-const char * mgos_config_get_default_mdash_toggle_key(void) { return NULL; }
-void mgos_config_set_mdash_toggle_key(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.toggle.key, v); }
-
-/* mdash.toggle1 */
-const struct mgos_config_mdash_toggle *mgos_config_get_mdash_toggle1(const struct mgos_config *cfg) { return &cfg->mdash.toggle1; }
-
-/* mdash.toggle1.enable */
-int mgos_config_get_mdash_toggle1_enable(const struct mgos_config *cfg) { return cfg->mdash.toggle1.enable; }
-int mgos_config_get_default_mdash_toggle1_enable(void) { return false; }
-void mgos_config_set_mdash_toggle1_enable(struct mgos_config *cfg, int v) { cfg->mdash.toggle1.enable = v; }
-
-/* mdash.toggle1.title */
-const char * mgos_config_get_mdash_toggle1_title(const struct mgos_config *cfg) { return cfg->mdash.toggle1.title; }
-const char * mgos_config_get_default_mdash_toggle1_title(void) { return NULL; }
-void mgos_config_set_mdash_toggle1_title(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.toggle1.title, v); }
-
-/* mdash.toggle1.key */
-const char * mgos_config_get_mdash_toggle1_key(const struct mgos_config *cfg) { return cfg->mdash.toggle1.key; }
-const char * mgos_config_get_default_mdash_toggle1_key(void) { return NULL; }
-void mgos_config_set_mdash_toggle1_key(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.toggle1.key, v); }
-
-/* mdash.toggle2 */
-const struct mgos_config_mdash_toggle *mgos_config_get_mdash_toggle2(const struct mgos_config *cfg) { return &cfg->mdash.toggle2; }
-
-/* mdash.toggle2.enable */
-int mgos_config_get_mdash_toggle2_enable(const struct mgos_config *cfg) { return cfg->mdash.toggle2.enable; }
-int mgos_config_get_default_mdash_toggle2_enable(void) { return false; }
-void mgos_config_set_mdash_toggle2_enable(struct mgos_config *cfg, int v) { cfg->mdash.toggle2.enable = v; }
-
-/* mdash.toggle2.title */
-const char * mgos_config_get_mdash_toggle2_title(const struct mgos_config *cfg) { return cfg->mdash.toggle2.title; }
-const char * mgos_config_get_default_mdash_toggle2_title(void) { return NULL; }
-void mgos_config_set_mdash_toggle2_title(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.toggle2.title, v); }
-
-/* mdash.toggle2.key */
-const char * mgos_config_get_mdash_toggle2_key(const struct mgos_config *cfg) { return cfg->mdash.toggle2.key; }
-const char * mgos_config_get_default_mdash_toggle2_key(void) { return NULL; }
-void mgos_config_set_mdash_toggle2_key(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.toggle2.key, v); }
-
-/* mdash.button */
-const struct mgos_config_mdash_button *mgos_config_get_mdash_button(const struct mgos_config *cfg) { return &cfg->mdash.button; }
-
-/* mdash.button.enable */
-int mgos_config_get_mdash_button_enable(const struct mgos_config *cfg) { return cfg->mdash.button.enable; }
-int mgos_config_get_default_mdash_button_enable(void) { return false; }
-void mgos_config_set_mdash_button_enable(struct mgos_config *cfg, int v) { cfg->mdash.button.enable = v; }
-
-/* mdash.button.title */
-const char * mgos_config_get_mdash_button_title(const struct mgos_config *cfg) { return cfg->mdash.button.title; }
-const char * mgos_config_get_default_mdash_button_title(void) { return NULL; }
-void mgos_config_set_mdash_button_title(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.button.title, v); }
-
-/* mdash.button.method */
-const char * mgos_config_get_mdash_button_method(const struct mgos_config *cfg) { return cfg->mdash.button.method; }
-const char * mgos_config_get_default_mdash_button_method(void) { return NULL; }
-void mgos_config_set_mdash_button_method(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.button.method, v); }
-
-/* mdash.button.params */
-const char * mgos_config_get_mdash_button_params(const struct mgos_config *cfg) { return cfg->mdash.button.params; }
-const char * mgos_config_get_default_mdash_button_params(void) { return NULL; }
-void mgos_config_set_mdash_button_params(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.button.params, v); }
-
-/* mdash.button.icon */
-const char * mgos_config_get_mdash_button_icon(const struct mgos_config *cfg) { return cfg->mdash.button.icon; }
-const char * mgos_config_get_default_mdash_button_icon(void) { return NULL; }
-void mgos_config_set_mdash_button_icon(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.button.icon, v); }
-
-/* mdash.button1 */
-const struct mgos_config_mdash_button *mgos_config_get_mdash_button1(const struct mgos_config *cfg) { return &cfg->mdash.button1; }
-
-/* mdash.button1.enable */
-int mgos_config_get_mdash_button1_enable(const struct mgos_config *cfg) { return cfg->mdash.button1.enable; }
-int mgos_config_get_default_mdash_button1_enable(void) { return false; }
-void mgos_config_set_mdash_button1_enable(struct mgos_config *cfg, int v) { cfg->mdash.button1.enable = v; }
-
-/* mdash.button1.title */
-const char * mgos_config_get_mdash_button1_title(const struct mgos_config *cfg) { return cfg->mdash.button1.title; }
-const char * mgos_config_get_default_mdash_button1_title(void) { return NULL; }
-void mgos_config_set_mdash_button1_title(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.button1.title, v); }
-
-/* mdash.button1.method */
-const char * mgos_config_get_mdash_button1_method(const struct mgos_config *cfg) { return cfg->mdash.button1.method; }
-const char * mgos_config_get_default_mdash_button1_method(void) { return NULL; }
-void mgos_config_set_mdash_button1_method(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.button1.method, v); }
-
-/* mdash.button1.params */
-const char * mgos_config_get_mdash_button1_params(const struct mgos_config *cfg) { return cfg->mdash.button1.params; }
-const char * mgos_config_get_default_mdash_button1_params(void) { return NULL; }
-void mgos_config_set_mdash_button1_params(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.button1.params, v); }
-
-/* mdash.button1.icon */
-const char * mgos_config_get_mdash_button1_icon(const struct mgos_config *cfg) { return cfg->mdash.button1.icon; }
-const char * mgos_config_get_default_mdash_button1_icon(void) { return NULL; }
-void mgos_config_set_mdash_button1_icon(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.button1.icon, v); }
-
-/* mdash.button2 */
-const struct mgos_config_mdash_button *mgos_config_get_mdash_button2(const struct mgos_config *cfg) { return &cfg->mdash.button2; }
-
-/* mdash.button2.enable */
-int mgos_config_get_mdash_button2_enable(const struct mgos_config *cfg) { return cfg->mdash.button2.enable; }
-int mgos_config_get_default_mdash_button2_enable(void) { return false; }
-void mgos_config_set_mdash_button2_enable(struct mgos_config *cfg, int v) { cfg->mdash.button2.enable = v; }
-
-/* mdash.button2.title */
-const char * mgos_config_get_mdash_button2_title(const struct mgos_config *cfg) { return cfg->mdash.button2.title; }
-const char * mgos_config_get_default_mdash_button2_title(void) { return NULL; }
-void mgos_config_set_mdash_button2_title(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.button2.title, v); }
-
-/* mdash.button2.method */
-const char * mgos_config_get_mdash_button2_method(const struct mgos_config *cfg) { return cfg->mdash.button2.method; }
-const char * mgos_config_get_default_mdash_button2_method(void) { return NULL; }
-void mgos_config_set_mdash_button2_method(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.button2.method, v); }
-
-/* mdash.button2.params */
-const char * mgos_config_get_mdash_button2_params(const struct mgos_config *cfg) { return cfg->mdash.button2.params; }
-const char * mgos_config_get_default_mdash_button2_params(void) { return NULL; }
-void mgos_config_set_mdash_button2_params(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.button2.params, v); }
-
-/* mdash.button2.icon */
-const char * mgos_config_get_mdash_button2_icon(const struct mgos_config *cfg) { return cfg->mdash.button2.icon; }
-const char * mgos_config_get_default_mdash_button2_icon(void) { return NULL; }
-void mgos_config_set_mdash_button2_icon(struct mgos_config *cfg, const char * v) { mgos_conf_set_str(&cfg->mdash.button2.icon, v); }
 
 /* rpc */
 const struct mgos_config_rpc *mgos_config_get_rpc(const struct mgos_config *cfg) { return &cfg->rpc; }
@@ -2075,6 +1134,14 @@ void mgos_config_set_board_btn3_pin(struct mgos_config *cfg, int v) { cfg->board
 int mgos_config_get_board_btn3_pull_up(const struct mgos_config *cfg) { return cfg->board.btn3.pull_up; }
 int mgos_config_get_default_board_btn3_pull_up(void) { return false; }
 void mgos_config_set_board_btn3_pull_up(struct mgos_config *cfg, int v) { cfg->board.btn3.pull_up = v; }
+
+/* app */
+const struct mgos_config_app *mgos_config_get_app(const struct mgos_config *cfg) { return &cfg->app; }
+
+/* app.pin */
+int mgos_config_get_app_pin(const struct mgos_config *cfg) { return cfg->app.pin; }
+int mgos_config_get_default_app_pin(void) { return 12; }
+void mgos_config_set_app_pin(struct mgos_config *cfg, int v) { cfg->app.pin = v; }
 bool mgos_sys_config_get(const struct mg_str key, struct mg_str *value) {
   return mgos_config_get(key, value, &mgos_sys_config, mgos_config_schema());
 }
