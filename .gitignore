@@ -2,6 +2,5 @@
 .idea
 build
 build/***
-build/gen/***
 core-*
 __pycache__
